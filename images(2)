@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>虎居-家居建材直卖网</title>
+<meta name="keywords" content="虎居,虎居商城,家居商城,建材商城,虎居网,家居新零售平台,新零售加盟">
+<meta name="description" content="虎居家居建材直卖网,创意家居、智能家居的一站式家居新零售平台,采用C2M2B模式，千余家家居新零售加盟商家，实现家居行业新零售选购有感体验场景化,让消费者省心、省时、省力、省钱.">
+<meta name="baidu-site-verification" content="VnQkfvyNB1" />
+<link href="/shop_pc/css/index.css" rel="stylesheet" 0="app\assets\AppAsset">
+<link href="/shop_pc/css/iconfont.css" rel="stylesheet" 0="app\assets\AppAsset">
+<link href="/shop_pc/css/site-base.css" rel="stylesheet" 0="app\assets\AppAsset">
+<link href="/shop_pc/css/main.css" rel="stylesheet" 0="app\assets\AppAsset">
+<link href="/shop_pc/css/process.css" rel="stylesheet" 0="app\assets\AppAsset"><link rel="shortcut icon" href="/shop_pc/images/favicon.ico">
+<script language="JavaScript" src="/shop_pc/js/jquery-1.10.2.min.js"></script>
+<script language="JavaScript" src="/shop_pc/js/superslide.js"></script>
+<script language="JavaScript" src="/shop_pc/js/scroll_city.js"></script>
+<script language="JavaScript" src="/shop_pc/js/main.js"></script>
+<script language="JavaScript" src="/shop_pc/js/layer/layer.js"></script>
+<script language="JavaScript" src="/shop_pc/js/wow.min.js"></script>
+<script language="JavaScript" src="/js/template.js"></script>
+<script language="JavaScript" src="/shop_pc/js/jquery.cookie.js"></script>
+</head>
+<body>
+    <div class="site_ad">
+        <a target="_blank" title="年终大促-抢优惠券" href="https://www.huju168.com/event/2018/12/171092.html">
+            <img alt="年终大促-抢优惠券" src="https://img20.huju168.com/FnnouLQ_gh8YNm2EKrlzwBE3gIGr" />
+        </a>
+    </div>
+<!--header-->
+<div class="header">
+    <div class="w1180">
+        <ul class="fl">
+            <li>
+                <a href="/">虎居首页</a>
+            </li>
+            <li class="hoverClick site-up top-site-up">
+            </li>
+            <li class="hoverClick">
+                <a class="app-down">
+                    <i class="iconfont">&#xe602;</i>
+                    手机虎居
+                </a>
+                <div class="app-up hoverOpen">
+                    <img src="/shop_pc/images/APP.png" />
+                </div>
+            </li>
+            <li class="hoverClick">
+                <a class="app-down">
+                    <i class="iconfont wx">&#xe603;</i>
+                    微信公众号
+                </a>
+                <div class="app-up hoverOpen">
+                    <img src="/shop_pc/images/vipcn.jpg" />
+                </div>
+            </li>
+            <li>
+                <a>
+                    全国热线：
+                    <b class="org">400-016-8257</b>
+                </a>
+            </li>
+        </ul>
+        <ul class="fr">
+
+            <li>
+               HI，欢迎来到虎居
+           </li>
+
+                            <li>
+                  <a href="/login.html?loginUrl=https%3A%2F%2Fwww.huju168.com%2F">
+                       登录
+                   </a>
+                </li>
+                <li>
+                   <a href="/reg.html">
+                       注册
+                   </a>
+                </li>
+                        <li>
+                <a href="/cart.html" target="_blank">
+                    <i class="cart_icon"></i>
+                    购物车<span class="org">0</span>件
+                </a>
+            </li>
+            <li class="hoverClick">
+                <a class="border" target="_blank" title="我的虎居" href="/member">
+                    我的虎居
+                    <i class="iconfont up">&#xe608;</i>
+                </a>
+                <div class="serve-up hoverOpen">
+                    <ul>
+                        <li>
+                            <a target="_blank" title="待付款订单" href="/myorder/pending-payment">待付款订单</a>
+                        </li>
+                        <!--<li>
+                            <a>我的报名</a>
+                        </li>-->
+                        <li>
+                            <a target="_blank" title="我的优惠券" href="/wallet/coupon">我的优惠券</a>
+                        </li>
+                        <li>
+                            <a target="_blank" title="我的关注" href="/follow/goods">我的关注</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a target="_blank" title="商家登录" class="border" href="https://seller.huju168.com">
+                    商家登录
+                </a>
+            </li>
+            <li class="hoverClick">
+                <a class="border" target="_blank" title="关于我们" href="/help-1264-1.html">
+                    关于我们
+                    <i class="iconfont up">&#xe608;</i>
+                </a>
+                <div class="serve-up hoverOpen">
+                    <ul>
+                        <li>
+                            <a  target="_blank" title="关于我们" href="/help-1264-1.html">关于我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- logo-search -->
+<div class="logo-search">
+    <h1 class="logo">
+        <a href="/">
+            <img src="/shop_pc/images/main/logo.png" />
+        </a>
+			<span class="title">
+				<img src="/shop_pc/images/main/log-til.png" />
+			</span>
+    </h1>
+    <div class="search-main">
+        <div class="search-box">
+            <i class="iconfont">&#xe604;</i>
+            <input type="text" id="search-value" value="" placeholder="商品名称/店铺名称" />
+            <button class="search-btn" id="search-goods" onclick="searchFun()">
+                搜索
+            </button>
+        </div>
+        <script type="text/javascript">
+            $(document).on('keyup', '.search-box', function(event) {
+                if(event.keyCode == 13) {
+                    $('#search-goods').trigger('click');
+                }
+            });
+
+            function size(obj){
+                obj.classList.add("org");
+            }
+
+            function size1(obj){
+                obj.classList.remove("org");
+            }
+
+            /**
+             * @return mixed
+             * */
+            function searchFun()
+            {
+                var search = $('#search-value').val() ? '-'+$('#search-value').val() : '';
+                window.location.href = "/search" + search+".html";
+            }
+        </script>
+                    <div class="search-hot">
+                                    <a class="hot-kwd" href="/search-%E6%99%BA%E4%BA%AB.html" onmouseover="size(this)" onmouseout="size1(this)">智享</a>
+                                    <a class="hot-kwd" href="/search-%E6%B2%99%E5%8F%91.html" onmouseover="size(this)" onmouseout="size1(this)">沙发</a>
+                                    <a class="hot-kwd" href="/search-%E5%AE%9E%E6%9C%A8%E5%BA%8A.html" onmouseover="size(this)" onmouseout="size1(this)">实木床</a>
+                                    <a class="hot-kwd" href="/search-%E7%B1%B3%E5%85%B0%E5%A3%81%E7%BA%B8.html" onmouseover="size(this)" onmouseout="size1(this)">米兰壁纸</a>
+                                    <a class="hot-kwd" href="/search-%E6%9D%B0%E5%AE%A2%E4%B8%B9%E5%B0%BC.html" onmouseover="size(this)" onmouseout="size1(this)">杰客丹尼</a>
+                                    <a class="hot-kwd" href="/search-%E5%BA%8A.html" onmouseover="size(this)" onmouseout="size1(this)">床</a>
+                                    <a class="hot-kwd" href="/search-%E5%93%88%E5%93%88%E5%93%88.html" onmouseover="size(this)" onmouseout="size1(this)">哈哈哈</a>
+                                    <a class="hot-kwd" href="/search-%E5%AE%9A%E5%88%B6.html" onmouseover="size(this)" onmouseout="size1(this)">定制</a>
+                                    <a class="hot-kwd" href="/search-%E5%8D%8E%E5%8D%97%E9%93%AD.html" onmouseover="size(this)" onmouseout="size1(this)">华南铭</a>
+                            </div>
+            </div>
+    <div class="shopCart hoverClick">
+        <div class="hoverOpen">
+            <div class="settleup-content">
+                <div class="mc">
+                    <ul>
+                        <li>
+                            <div class="p-img">
+                                <a target="_blank">
+                                    <img src="/shop_pc/images/img/tiyandian.jpg" width="50" height="50">
+                                </a>
+                            </div>
+                            <div class="p-name">
+                                <a target="_blank" title="test3">test3</a>
+                            </div>
+                            <div class="p-number">
+                                <span class="num">1</span>
+                                <div class="count">
+                                    <a class="count-add"><i class="iconfont icon-up">&and;</i></a>
+                                    <a class="count-remove"><i class="iconfont icon-down">&or;</i></a>
+                                </div>
+                            </div>
+                            <div class="p-oper">
+                                <div class="price"><em>¥</em>0.01</div>
+                                <a class="remove">删除</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb">
+                    <input name="cart_value" type="hidden">
+                    <div class="p-total">共1件商品&nbsp;&nbsp;共计：0.01</div>
+                    <a href="/cart.html" target="_blank" class="btn-cart">去购物车</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-main-box">
+    <div class="nav-box">
+        <div class="pull-nav">
+            <a class="pull-a">
+                <i></i>商品分类
+            </a>
+            <div class="pull-box">
+                <ul class="pull-box-ul">
+                                                                    <li class="pull-box-li" cate-id="4cef7c957d5a4d89926f97fb25e3a9d2">
+                            <div class="pull-main">
+                                <strong>
+                                    <em>
+                                        <img src="https://img20.huju168.com/FkIgnbP0UQIBcSPPczM9Tu3_xn4Q">
+                                    </em>
+                                    <a target="_blank" title="家具" href="/category-43424641">家具</a>
+                                </strong>
+
+                                <div class="pull-list cate-name-0">
+                                                                                                                        <a target="_blank" title="床" href="/category-10351603-3">床</a>
+                                                                                    <a target="_blank" title="衣柜" href="/category-98963905-3">衣柜</a>
+                                                                                    <a target="_blank" title="沙发" href="/category-13959833-3">沙发</a>
+                                                                                    <a target="_blank" title="餐桌" href="/category-42162080-3">餐桌</a>
+                                                                                    <a target="_blank" title="书桌" href="/category-39643848-3">书桌</a>
+                                                                                                            </div>
+                            </div>
+
+                            <div class="pull-down pull-down1-0"></div>
+                        </li>
+                                                                    <li class="pull-box-li" cate-id="f87eae197057402f9fa4afa41e4907c0">
+                            <div class="pull-main">
+                                <strong>
+                                    <em>
+                                        <img src="https://img20.huju168.com/Fhm3Iy3Js-TYVkQqOMlY3hwMmanN">
+                                    </em>
+                                    <a target="_blank" title="建材" href="/category-14606176">建材</a>
+                                </strong>
+
+                                <div class="pull-list cate-name-1">
+                                                                                                                        <a target="_blank" title="坐便器" href="/category-39970296-3">坐便器</a>
+                                                                                    <a target="_blank" title="瓷砖" href="/category-86482447-3">瓷砖</a>
+                                                                                    <a target="_blank" title="地板" href="/category-46767331-3">地板</a>
+                                                                                    <a target="_blank" title="硅藻泥" href="/category-14829980-3">硅藻泥</a>
+                                                                                    <a target="_blank" title="吸顶灯" href="/category-65147107-3">吸顶灯</a>
+                                                                                                            </div>
+                            </div>
+
+                            <div class="pull-down pull-down1-1"></div>
+                        </li>
+                                                                    <li class="pull-box-li" cate-id="8f4927268851460a97781ad031822b66">
+                            <div class="pull-main">
+                                <strong>
+                                    <em>
+                                        <img src="https://img20.huju168.com/Fm32mcCW7u2y7M5HjOg47B3ldjiy">
+                                    </em>
+                                    <a target="_blank" title="家居家饰" href="/category-10167202">家居家饰</a>
+                                </strong>
+
+                                <div class="pull-list cate-name-2">
+                                                                                                                        <a target="_blank" title="被子" href="/category-13374765-3">被子</a>
+                                                                                    <a target="_blank" title="床品套件" href="/category-12458781-3">床品套件</a>
+                                                                                    <a target="_blank" title="窗帘窗纱" href="/category-12307374-3">窗帘窗纱</a>
+                                                                                    <a target="_blank" title="创意摆件" href="/category-43264229-3">创意摆件</a>
+                                                                                    <a target="_blank" title="被子" href="/category-13374765-3">被子</a>
+                                                                                                            </div>
+                            </div>
+
+                            <div class="pull-down pull-down1-2"></div>
+                        </li>
+                                                                    <li class="pull-box-li" cate-id="29938d6509ea43a8acc1849b5326a942">
+                            <div class="pull-main">
+                                <strong>
+                                    <em>
+                                        <img src="https://img20.huju168.com/FtUdTNt1Qtump3-7LmbMQ0eeNqYH">
+                                    </em>
+                                    <a target="_blank" title="电器" href="/category-17033408">电器</a>
+                                </strong>
+
+                                <div class="pull-list cate-name-3">
+                                                                                                                        <a target="_blank" title="洗碗机" href="/category-44445406-3">洗碗机</a>
+                                                                                    <a target="_blank" title="热水器 " href="/category-38729277-3">热水器 </a>
+                                                                                    <a target="_blank" title="冰箱" href="/category-15051096-3">冰箱</a>
+                                                                                    <a target="_blank" title="空调" href="/category-92002001-3">空调</a>
+                                                                                    <a target="_blank" title="洗碗机" href="/category-44445406-3">洗碗机</a>
+                                                                                                            </div>
+                            </div>
+
+                            <div class="pull-down pull-down1-3"></div>
+                        </li>
+                                                                    <li class="pull-box-li" cate-id="1f276fee4d1742d6a55833317275e56b">
+                            <div class="pull-main">
+                                <strong>
+                                    <em>
+                                        <img src="https://img20.huju168.com/FulZV3l-vGomRz18JVPH7GA1Klfe">
+                                    </em>
+                                    <a target="_blank" title="智能" href="/category-11131647">智能</a>
+                                </strong>
+
+                                <div class="pull-list cate-name-4">
+                                                                                                                        <a target="_blank" title="智能生活" href="/category-10172419-3">智能生活</a>
+                                                                                    <a target="_blank" title="智能门锁" href="/category-40694485-3">智能门锁</a>
+                                                                                    <a target="_blank" title="智能摄像头" href="/category-89773787-3">智能摄像头</a>
+                                                                                    <a target="_blank" title="智能开关" href="/category-12463843-3">智能开关</a>
+                                                                                    <a target="_blank" title="智能生活" href="/category-10172419-3">智能生活</a>
+                                                                                                            </div>
+                            </div>
+
+                            <div class="pull-down pull-down1-4"></div>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="menu-nav">
+            <ul>
+                                                            <li>
+                            <a target="_blank" title="首页" href="/" target="_blank" title="首页">首页</a>
+                        </li>
+                                            <li>
+                            <a target="_blank" title="家具馆" href="https://www.huju168.com/category-43424641" target="_blank" title="家具馆">家具馆</a>
+                        </li>
+                                            <li>
+                            <a target="_blank" title="建材馆" href="https://www.huju168.com/category-14606176" target="_blank" title="建材馆">建材馆</a>
+                        </li>
+                                            <li>
+                            <a target="_blank" title="大明宫办公家具城" href="https://www.huju168.com/shop-995043" target="_blank" title="大明宫办公家具城">大明宫办公家具城</a>
+                        </li>
+                                            <li>
+                            <a target="_blank" title="体验店" href="/experience" target="_blank" title="体验店">体验店</a>
+                        </li>
+                                            <li>
+                            <a target="_blank" title="资讯" href="https://zixun.huju168.com" target="_blank" title="资讯">资讯</a>
+                        </li>
+                    
+                            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="fixed-side-rig" ectype='right'>
+    <ul>
+        <li>
+            <a  id="IM" onclick="openZoosUrl('chatwin');" ru_id="513" class="p-kefu">
+                <i class="icon_1"></i>
+                客服
+            </a>
+        </li>
+        <li class="take_code">
+            <a href="javascript:void(0);">
+                <i class="icon_2"></i>
+                扫码
+            </a>
+            <div class="code">
+                <div class="img-box">
+                    <img src="/shop_pc/images/APP.png">
+                </div>
+                <p>下载虎居APP<br>领千元新人礼包</p>
+                <i></i>
+            </div>
+        </li>
+        <li>
+            <a class="gotop" href="javascript:void(0);">
+                <i class="icon_3"></i>
+                顶部
+            </a>
+        </li>
+    </ul>
+</div>
+
+<script language="javascript" src="https://dct.zoosnet.net/JS/LsJS.aspx?siteid=DCT67601660&float=1&lng=cn"></script>
+<script type="text/javascript">
+    var siteThreeClassArr = [];
+    var siteClassBrandArr = [];
+
+    $(function () {
+        childClassInfoFun();
+
+        $(document).on('mouseenter', '.pull-box-li', function() {
+            var _this = $(this);
+            var cateId = _this.attr('cate-id');
+            if(cateId) {
+                $.ajax({
+                    url: '/goods/get-class-by-id',
+                    type: 'post',
+                    data: {
+                        cateId: cateId
+                    },
+                    dataType: 'json',
+                    success: function(json) {
+                        if(json['cache'] && json['cache'] == 1 && json['ret'] == 200) {
+                            _this.find('.pull-down').html(json['data']);
+                        } else {
+                            siteClassStyleFun(json['data'], _this);
+                        }
+                    },
+                    error: function(reg) {
+                        console.log(reg);
+                    }
+                });
+            }
+        });
+    });
+
+    /**
+     * 直接获取分类下面的子分类
+     * */
+    function childClassInfoFun()
+    {
+        var cateIds = '';
+        $.each($('.pull-box-li'), function(i, obj) {
+            var _this = $(this);
+            var cateId = _this.attr('cate-id');
+            if(cateId) {
+                cateIds += cateId+',';
+            }
+        });
+
+        var ids = cateIds.substring(0, cateIds.length - 1);// 截取开始到长度减-1的字符串，去掉逗号
+        $.ajax({
+            url: '/site/child-class-info',
+            type: 'post',
+            data: {
+                cateId: ids,
+                _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+            },
+            dataType: 'json',
+            success: function(json) {},
+            error: function(reg) {}
+        });
+    }
+
+    /**
+     * 赋予分类数据
+     * */
+    function siteClassStyleFun(data, me)
+    {
+        var html = '';
+
+        $.each(data, function(i, obj) {
+            if(i > 4) {
+                return false;
+            }
+
+            var info2 = {};
+
+            info2['cate_id'] = obj['cate_id'];
+            info2['cate_name'] = obj['cate_name'];
+            siteClassBrandArr[i] = info2;
+
+            if(obj['sons'] && obj['sons'].length>0) {
+                html += '<div class="classify-for">';
+                var data = [];
+                var tips = 0;
+                $.each(obj['sons'], function(x, cla) {
+                    html += '<dl>';
+                    html += '   <dt><a target="_blank" title="'+cla['cate_name']+'" href="/category-'+cla['cate_code_id']+'">'+cla['cate_name']+'</a></dt>';
+                    html += '   <dd>';
+
+                    if(cla['sons'].length>0) {
+                        $.each(cla['sons'], function(z, _cla) {
+                            var org = '';
+                            if(_cla['cate_is_highlight'] == 1) {
+                                org = 'class="org"';
+                            }
+                            html += '<a target="_blank" title="'+_cla['cate_name']+'" '+org+' href="/category-'+_cla['cate_code_id']+'-'+_cla['cate_leve']+'">'+_cla['cate_name']+'</a>';
+                        });
+                    } else {
+                        html += '&nbsp;';
+                    }
+
+                    html += '   </dd>';
+                    html += '</dl>';
+                });
+                html += '</div>';
+
+                html += '<div class="recomBrand recomBrand-'+i+'">';
+                html += '   <dl class="brand">';
+                html += '   </dl>';
+                html += '   <dl class="activity">';
+                html += '   </dl>';
+                html += '</div>';
+            }
+        });
+
+        me.find('.pull-down').html(html);
+        giveSiteClassBrandFun();
+        giveSiteClassAdFun();
+    }
+
+    /**
+     * 分类下面的品牌
+     * */
+    function giveSiteClassBrandFun()
+    {
+        $.each(siteClassBrandArr, function(i, obj) {
+            if(obj['cate_id']) {
+                $.ajax({
+                    url: '/site/ajax-class-brand',
+                    type: 'post',
+                    data: {
+                        cateId: obj['cate_id'],
+                        _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+                    },
+                    dataType: 'json',
+                    success: function(json) {
+                        if(json['ret'] == 200) {
+                            var html = '';
+                            if(json['data'] && json['data'].length>0) {
+                                html += '   <dt>推荐品牌</dt>';
+                                $.each(json['data'], function(z, _obj) {
+                                    var logo = '/shop_pc/images/img/tiyandian.jpg';
+                                    if(_obj['brand_logo']) {
+                                        logo = _obj['brand_logo'];
+                                    }
+
+                                    var brandName = '';
+                                    if(_obj['brand_name']) {
+                                        brandName = _obj['brand_name'];
+                                    }
+
+                                    if(z < 6) {
+                                        html += '<dd><a target="_blank" title="brandName" href="/search-'+brandName+'.html"><img src="'+logo+'" /></a></dd>';
+                                    }
+
+                                });
+                                $('.recomBrand-'+i).find('.brand').html(html);
+                            }
+
+                        } else {
+                            //layer.msg(json['msg']);
+                        }
+                    },
+                    error: function(reg) {
+                        console.log(reg);
+                    }
+                });
+            }
+        });
+    }
+
+    /**
+     * 分类下面的广告
+     * */
+    function giveSiteClassAdFun()
+    {
+        $.each(siteClassBrandArr, function(i, obj) {
+            if(obj['cate_id']) {
+                var code = '';
+                var cateId = obj['cate_id'];
+
+                 // 正式
+                 if(cateId == '4cef7c957d5a4d89926f97fb25e3a9d2') {
+                 code = '10134';
+                 } else if(cateId == 'f87eae197057402f9fa4afa41e4907c0') {
+                 code = '10135';
+                 } else if(cateId == '8f4927268851460a97781ad031822b66') {
+                 code = '10136';
+                 } else if(cateId == '29938d6509ea43a8acc1849b5326a942') {
+                 code = '10137';
+                 } else if(cateId == '1f276fee4d1742d6a55833317275e56b') {
+                 code = '10138';
+                 }
+
+                $.ajax({
+                    url: '/site/ajax-class-ad',
+                    type: 'post',
+                    async: false,
+                    data: {
+                        code: code,
+                        _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+                    },
+                    dataType: 'json',
+                    success: function(json) {
+                        if(json['ret'] == 200) {
+                            var html = '';
+                            if(json['data']) {
+                                html += '   <dt>精选活动</dt>';
+                                html += '   <dd><a target="_blank" title="'+json['data']['position']['advertisingList'][0]['materialList'][0]['name']+'" href="'+json['data']['position']['advertisingList'][0]['materialList'][0]['href']+'"><img alt="'+json['data']['position']['advertisingList'][0]['materialList'][0]['name']+'" src="'+json['data']['position']['advertisingList'][0]['materialList'][0]['file_key']+'"></a></dd>';
+                                $('.recomBrand-'+i).find('.activity').html(html);
+                            }
+
+                        } else {
+                            //layer.msg(json['msg']);
+                        }
+                    },
+                    error: function(reg) {
+                        console.log(reg);
+                    }
+                });
+            }
+        });
+    }
+</script>
+<div class="global-banner">
+    <div class="hd">
+        <ul><li class="active">1</li><li class="">2</li></ul>
+    </div>
+    <div class="bd">
+        <ul>
+                                                                                                    <li style="display: list-item;">
+                                <a target="_blank" title="年终大促" href="https://www.huju168.com/event/2018/12/171092.html">
+                                    <img alt="年终大促" src="https://img20.huju168.com/Fie2KOHOaVBt_R7G-I7w4KVV6wJk">
+                                </a>
+                            </li>
+                                                                                                <li style="display: list-item;">
+                                <a target="_blank" title="年终大促 抄底狂欢" href="https://www.huju168.com/shop-995183">
+                                    <img alt="年终大促 抄底狂欢" src="https://img20.huju168.com/Ft7-rptp8-Jj_aYIZ0Pyg8Ajc8g1">
+                                </a>
+                            </li>
+                                                                                                <li style="display: list-item;">
+                                <a target="_blank" title=" 福乐家居" href="https://www.huju168.com/shop-995062">
+                                    <img alt=" 福乐家居" src="https://img20.huju168.com/FncdqTQ-FNylbqwIT9OKZOFid4oJ">
+                                </a>
+                            </li>
+                                                                                                <li style="display: list-item;">
+                                <a target="_blank" title="好迪厨卫" href="https://www.huju168.com/shop-114094">
+                                    <img alt="好迪厨卫" src="https://img20.huju168.com/FkA56oEomOa9fX8HnKVo181bKDAS">
+                                </a>
+                            </li>
+                                                                                                <li style="display: list-item;">
+                                <a target="_blank" title="招商入驻" href="https://www.huju168.com/event/2018/09/342505.html ">
+                                    <img alt="招商入驻" src="https://img20.huju168.com/FqnkmFWaaaxfSsdXYaNZM7gSp8Uy">
+                                </a>
+                            </li>
+                                                            
+                    </ul>
+    </div>
+    <a class="prev">前</a>
+    <a class="next">后</a>
+    <div class="banner-side">
+        <div class="user-box">
+            <div class="img-box">
+                <a target="_blank" href="/member">
+                    <img style="border-radius: 100px;" src="/shop_pc/images/index/avatar.png">
+                </a>
+            </div>
+
+
+                            <p>Hi，欢迎来到虎居!</p>
+                <a class="btn hei" href="/login.html">登录</a>
+                <a class="btn org" href="/reg.html">注册</a>
+                    </div>
+        <ul>
+            <li><i class="icon-1"></i>权威可信</li>
+            <li><i class="icon-2"></i>就近购买</li>
+            <li><i class="icon-3"></i>线下体验</li>
+            <li><i class="icon-4"></i>商品直卖</li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+            <div class="hot-recommend louti" id="tuijian" ectype="floorItem">
+            <div class="title alt">活动推荐</div>
+            <ul>
+                                    <li>
+                        <a target="_blank" href="https://www.huju168.com/shop-995316" title="年末惠购">
+                            <img class="lazy" alt="年末惠购" data-original="https://img20.huju168.com/Fjcb2Xl0iNUQP4imu-2yTdu9UeAq" src="https://img20.huju168.com/Fjcb2Xl0iNUQP4imu-2yTdu9UeAq" style="display: inline;">
+                        </a>
+                    </li>
+                                    <li>
+                        <a target="_blank" href="https://www.huju168.com/shop-995381" title="买一赠四">
+                            <img class="lazy" alt="买一赠四" data-original="https://img20.huju168.com/FtlWHHWT1jhd-dmTFWmGNNSTEllq" src="https://img20.huju168.com/FtlWHHWT1jhd-dmTFWmGNNSTEllq" style="display: inline;">
+                        </a>
+                    </li>
+                                    <li>
+                        <a target="_blank" href="https://www.huju168.com/shop-995314" title="名品专场">
+                            <img class="lazy" alt="名品专场" data-original="https://img20.huju168.com/Fh4CTPPMb5DhchFOVSnOe15nzgur" src="https://img20.huju168.com/Fh4CTPPMb5DhchFOVSnOe15nzgur" style="display: inline;">
+                        </a>
+                    </li>
+                                    <li>
+                        <a target="_blank" href="https://www.huju168.com/shop-995350" title="限量专场">
+                            <img class="lazy" alt="限量专场" data-original="https://img20.huju168.com/Fv818FrcNdjwBpn7E4Z1hCrZ87nv" src="https://img20.huju168.com/Fv818FrcNdjwBpn7E4Z1hCrZ87nv" style="display: inline;">
+                        </a>
+                    </li>
+                            </ul>
+        </div>
+    
+    <div class="recommend-brand louti picScroll-left" id="miaosha" ectype="floorItem">
+        <div class="title alt"></div>
+        <div class="bda"></div>
+                                    
+                                            <div class="brand-ad">
+                            <a target="_blank" title="" href="">
+                                <img class="lazy" alt="" data-original="" src="" style="display: inline;">
+                            </a>
+                        </div>
+
+                    
+                
+            
+            </div>
+
+    <div class="floor-tabbox louti" id="floor1" ectype="floorItem">
+        <div class="title alt org">
+            <span>1F</span> 家具
+                            <div class="sale-hd">
+                                            <h3><a target="_blank" href="/category-10261723-3">儿童床</a></h3>
+                                            <h3><a target="_blank" href="/category-10351603-3">床</a></h3>
+                                            <h3><a target="_blank" href="/category-13959833-3">沙发</a></h3>
+                                            <h3><a target="_blank" href="/category-39643848-3">书桌</a></h3>
+                                            <h3><a target="_blank" href="/category-41160311-3">休闲户外椅凳</a></h3>
+                                            <h3><a target="_blank" href="/category-42162080-3">餐桌</a></h3>
+                                    </div>
+                    </div>
+        <div class="mattr-box">
+                            <div class="ad fl slideBox">
+                    <div class="hd">
+                        <ul><li class="on">1</li><li class="active">2</li></ul>
+                    </div>
+                    <div class="bd">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:330px">
+                            <ul style="width: 660px; left: -330px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                                                                                                                                        <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="冰点直降" href="https://www.huju168.com/category-43424641">
+                                                    <img alt="冰点直降" src="https://img20.huju168.com/FghrBMWHhP6369sbcnq0j1VNThhj">
+                                                </a>
+                                            </li>
+                                                                                                                                                                <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="全场五折" href="https://www.huju168.com/shop-995283">
+                                                    <img alt="全场五折" src="https://img20.huju168.com/FoPlqa9M2_-0xni4DrGBLogNmvm_">
+                                                </a>
+                                            </li>
+                                                                                                                                                                <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="极致奢华  尊享人生" href="https://www.huju168.com/shop-995039">
+                                                    <img alt="极致奢华  尊享人生" src="https://img20.huju168.com/FlWZlLHaAKOLp9Cshu_ximm2-WTQ">
+                                                </a>
+                                            </li>
+                                                                            
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                        <div class="list fl">
+                                    <div class="list-2">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="轻奢主义" href="https://www.huju168.com/shop-995314">
+                                            <img alt="轻奢主义" src="https://img20.huju168.com/Ftx6FgkNzid90KfwzTztPjPQS2ta">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="真皮诱惑" href="https://www.huju168.com/goods-1812058427.html ">
+                                            <img alt="真皮诱惑" src="https://img20.huju168.com/FqabmNPFV4S9eZolDEcNGqmSDBKj">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                
+                                    <div class="list-4 mt">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="现代简约沙发" href="https://www.huju168.com/goods-1811216451.html">
+                                            <img alt="现代简约沙发" src="https://img20.huju168.com/FpK2z83T2pY10JXW9jgnJXAWyCpu">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="北欧大理石餐桌" href="https://www.huju168.com/goods-1808313729.html">
+                                            <img alt="北欧大理石餐桌" src="https://img20.huju168.com/FqaDokuvty0o1-beA4BzDyoqOZHh">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="全屋定制" href="https://www.huju168.com/search-%E5%AE%9A%E5%88%B6.html">
+                                            <img alt="全屋定制" src="https://img20.huju168.com/Fvt1Am6VEA5r3Vy81sshtFjK4Yfr">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="爆款儿童家具" href="https://www.huju168.com/goods-1808316438.html">
+                                            <img alt="爆款儿童家具" src="https://img20.huju168.com/Fj7fGOQsGm6DVpDVYLVST_CNmytZ">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                            </div>
+                    </div>
+
+                                    
+                                            <div class="brand-ad">
+                            <a target="_blank" title="年中大促-家具" href="https://www.huju168.com/event/2018/12/171092.html">
+                                <img alt="年中大促-家具" class="lazy" data-original="https://img20.huju168.com/Ft3xacirSbS6rrkVAkaKD6mYNjE8" src="https://img20.huju168.com/Ft3xacirSbS6rrkVAkaKD6mYNjE8" style="display: inline;">
+                            </a>
+                        </div>
+
+                                    
+            
+            </div>
+
+    <div class="floor-tabbox louti" id="floor2" ectype="floorItem">
+        <div class="title alt org">
+            <span>2F</span> 建材
+                            <div class="sale-hd">
+                                            <h3><a target="_blank" href="/category-14829980-3">硅藻泥</a></h3>
+                                            <h3><a target="_blank" href="/category-39970296-3">坐便器</a></h3>
+                                            <h3><a target="_blank" href="/category-46767331-3">地板</a></h3>
+                                            <h3><a target="_blank" href="/category-65147107-3">吸顶灯</a></h3>
+                                            <h3><a target="_blank" href="/category-86482447-3">瓷砖</a></h3>
+                                            <h3><a target="_blank" href="/category-90666964-3">吊灯</a></h3>
+                                    </div>
+                    </div>
+        <div class="mattr-box">
+                            <div class="ad fl slideBox">
+                    <div class="hd">
+                        <ul><li class="on">1</li><li class="active">2</li></ul>
+                    </div>
+                    <div class="bd">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:330px">
+                            <ul style="width: 660px; left: -330px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                                                                                                                                        <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="年终钜惠 为所“浴”为 " href="https://www.huju168.com/category-0f853c5abd284c55ba2473eac9cc4281">
+                                                    <img alt="年终钜惠 为所“浴”为 " src="https://img20.huju168.com/Fk3_-ZPlHaqWpMycNnCegAGU-IpW">
+                                                </a>
+                                            </li>
+                                                                                                                                                                <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="年末狂欢趴" href="https://www.huju168.com/category-0f853c5abd284c55ba2473eac9cc4281">
+                                                    <img alt="年末狂欢趴" src="https://img20.huju168.com/FoZuQiolQ7po728eX_IQiCf-iEwW">
+                                                </a>
+                                            </li>
+                                                                            
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                        <div class="list fl">
+                                    <div class="list-3">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="乐享智能 博采众长" href="https://www.huju168.com/goods-1810242816.html">
+                                            <img alt="乐享智能 博采众长" src="https://img20.huju168.com/Floj_8JhsPbu-cbUwPHIJP6u2DaU">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="冠珠陶瓷   年终特惠29元抢" href="https://www.huju168.com/shop-907717">
+                                            <img alt="冠珠陶瓷   年终特惠29元抢" src="https://img20.huju168.com/Fl92c1yp1XMDwC5ka1vI3SjdYKRA">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="贝壳粉装修涂料 活动价78元起" href="https://www.huju168.com/shop-995183">
+                                            <img alt="贝壳粉装修涂料 活动价78元起" src="https://img20.huju168.com/FsBI42DJUOPWNj2I0Eldn9f2k9t_">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                
+                                    <div class="list-2 mt">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="开门让利 年末有礼" href="https://www.huju168.com/goods-1808087405.html">
+                                            <img alt="开门让利 年末有礼" src="https://img20.huju168.com/Fij7Fif9nNtJJMzGMjVcCIb9yBSZ">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="不惧黑暗 灯饰照亮人生" href="https://www.huju168.com/category-45667018">
+                                            <img alt="不惧黑暗 灯饰照亮人生" src="https://img20.huju168.com/FnS9tsLWO4mrKR0R_c2vfgjBfurQ">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                            </div>
+                    </div>
+
+                                                                                <div class="brand-ad">
+                            <a target="_blank" title="年中大促-建材" href="https://www.huju168.com/event/2018/12/171092.html">
+                                <img alt="年中大促-建材" class="lazy" data-original="https://img20.huju168.com/FrLPOH7Ws4C9BCaSDWYwSqQ7f4un" src="https://img20.huju168.com/FrLPOH7Ws4C9BCaSDWYwSqQ7f4un" style="display: inline;">
+                            </a>
+                        </div>
+
+                    
+                
+            
+            </div>
+
+
+    <div class="floor-tabbox louti" id="floor3" ectype="floorItem">
+        <div class="title alt org">
+            <span>3F</span> 家居
+                            <div class="sale-hd">
+                                            <h3><a target="_blank" href="/category-12307374-3">窗帘窗纱</a></h3>
+                                            <h3><a target="_blank" href="/category-12458781-3">床品套件</a></h3>
+                                            <h3><a target="_blank" href="/category-13374765-3">被子</a></h3>
+                                            <h3><a target="_blank" href="/category-43264229-3">创意摆件</a></h3>
+                                            <h3><a target="_blank" href="/category-10026127-3">地毯</a></h3>
+                                            <h3><a target="_blank" href="/category-11455326-3">床褥</a></h3>
+                                    </div>
+                    </div>
+        <div class="mattr-box">
+                            <div class="ad fl slideBox">
+                    <div class="hd">
+                        <ul><li class="on">1</li><li class="active">2</li></ul>
+                    </div>
+                    <div class="bd">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:330px">
+                            <ul style="width: 660px; left: -330px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                                                                                                                                        <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="年末狂欢  精品家纺全线让利" href="https://www.huju168.com/shop-995135">
+                                                    <img alt="年末狂欢  精品家纺全线让利" src="https://img20.huju168.com/FvPOMl_7_yBqoKwQQQji662iEZEc">
+                                                </a>
+                                            </li>
+                                                                                                                                                                <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="全场特惠 窗帘低至69元起" href="https://www.huju168.com/shop-995350">
+                                                    <img alt="全场特惠 窗帘低至69元起" src="https://img20.huju168.com/FiO_suMGnjDbA82V3_5lD0Kd0y6j">
+                                                </a>
+                                            </li>
+                                                                                                                                                                <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="安全生活 特惠开启" href="https://www.huju168.com/category-19392726">
+                                                    <img alt="安全生活 特惠开启" src="https://img20.huju168.com/FtwxHf23NaA_zh8j5YAQZ-Nb9KpI">
+                                                </a>
+                                            </li>
+                                                                            
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+                        <div class="list fl">
+                                    <div class="list-2">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="家纺直降 最低三折  " href="https://www.huju168.com/shop-39752a8afa384e0daae173cf7ff2af67">
+                                            <img alt="家纺直降 最低三折  " src="https://img20.huju168.com/FqO_vszWVqww813xO47R2PKpNG3f">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="品味生活 从挂画开始" href="https://www.huju168.com/shop-995040">
+                                            <img alt="品味生活 从挂画开始" src="https://img20.huju168.com/Fqzf0ZXzqEnRszhL-o4rAY762nnm">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                
+                                    <div class="list-4 mt">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="好物惠购 创意家居" href="https://www.huju168.com/shop-995201">
+                                            <img alt="好物惠购 创意家居" src="https://img20.huju168.com/FjDnfJGSYAtPQAWBd2rWplh2aplH">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="印花斜纹床上四件套" href="https://www.huju168.com/goods-1808243929.html">
+                                            <img alt="印花斜纹床上四件套" src="https://img20.huju168.com/FvXu0Gruj-htrQSLvkGdPMOx5Gbh">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="创意墙贴 双旦低至12元" href="https://www.huju168.com/shop-995199">
+                                            <img alt="创意墙贴 双旦低至12元" src="https://img20.huju168.com/FqHM7T1t83666PB4A51nqVMsJ6Hg">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="智能平衡磁吸小夜灯年终价：￥280" href="https://www.huju168.com/goods-1808153057.html">
+                                            <img alt="智能平衡磁吸小夜灯年终价：￥280" src="https://img20.huju168.com/FgkPOlVS1KBmQbMqS_wZMNJTbOHC">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                            </div>
+                    </div>
+
+                                    
+                                            <div class="brand-ad">
+                            <a target="_blank" title="年中大促-家居" href="https://www.huju168.com/event/2018/12/171092.html">
+                                <img alt="年中大促-家居" class="lazy" data-original="https://img20.huju168.com/FkJ7Rdwwfa89jZNTGXhwtJbx0Gxe" src="https://img20.huju168.com/FkJ7Rdwwfa89jZNTGXhwtJbx0Gxe" style="display: inline;">
+                            </a>
+                        </div>
+
+                    
+                
+            
+            </div>
+
+    <div class="floor-tabbox louti" id="floor4" ectype="floorItem">
+        <div class="title alt org">
+            <span>4F</span> 电器
+        </div>
+        <div class="mattr-box">
+                            <div class="ad fl slideBox">
+                    <div class="hd">
+                        <ul><li class="on">1</li><li class="active">2</li></ul>
+                    </div>
+                    <div class="bd">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:330px">
+                            <ul style="width: 660px; left: -330px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                                                                                                                                        <li style="float: left; width: 330px;">
+                                                <a target="_blank" title="名品电器 双旦大惠购" href="https://www.huju168.com/category-17033408">
+                                                    <img alt="名品电器 双旦大惠购" src="https://img20.huju168.com/FsV187K9MNK7hbUgF1M7uY4RV8sP">
+                                                </a>
+                                            </li>
+                                                                                                                                        </ul>
+                        </div>
+                    </div>
+                </div>
+                        <div class="list fl">
+                                    <div class="list-3">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title="暖冬惠购行 " href="https://www.huju168.com/goods-1808106626.html">
+                                            <img alt="暖冬惠购行 " src="https://img20.huju168.com/Fm_GAExkTrxvejdbEH1v1MqWOcD-">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="净水新选择 年末大惠购" href="https://www.huju168.com/search-%E5%87%80%E6%B0%B4.html">
+                                            <img alt="净水新选择 年末大惠购" src="https://img20.huju168.com/FrYdPiYNwO-V37f0rtFmGdIRExbh">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="品质冰箱 年末直降¥ 668" href="https://www.huju168.com/goods-1808109244.html">
+                                            <img alt="品质冰箱 年末直降¥ 668" src="https://img20.huju168.com/FsrIrWzmgqYsUf9urXzB_8wfYkAA">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                
+                                    <div class="list-2 mt">
+                        <ul>
+                                                                                                <li>
+                                        <a target="_blank" title=" 好迪油烟机 年末直降" href="https://www.huju168.com/goods-1809109472.html">
+                                            <img alt=" 好迪油烟机 年末直降" src="https://img20.huju168.com/Fge1oA9ivOkFdFbxgxupfdvFQCsv">
+                                        </a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a target="_blank" title="美的智能恒温热水器  年末价：¥ 2598" href="https://www.huju168.com/goods-1808309273.html">
+                                            <img alt="美的智能恒温热水器  年末价：¥ 2598" src="https://img20.huju168.com/FsydaIe9UdRdhZGj2PutCMPwCsjJ">
+                                        </a>
+                                    </li>
+                                                                                    </ul>
+                    </div>
+                            </div>
+                    </div>
+
+                                    
+                                            <div class="brand-ad">
+                            <a target="_blank" title="年中大促-电器" href="https://www.huju168.com/event/2018/12/171092.html">
+                                <img alt="年中大促-电器" class="lazy" data-original="https://img20.huju168.com/FoXltkJdecF0nfzBU9iDttWQQn5X" src="https://img20.huju168.com/FoXltkJdecF0nfzBU9iDttWQQn5X" style="display: inline;">
+                            </a>
+                        </div>
+
+                    
+                
+                        </div>
+
+    <!-- 体验店 -->
+    <div class="discovery-hall" id="floor5" ectype="floorItem"></div>
+
+    <!--推荐体验店模板-->
+    <script id="recommendExp" type="text/html">
+        <div class="title alt">
+            <span><%:=cityName%></span> · 体验店
+            <a target="_blank" class="fr" href="/experience">
+                查看更多体验店
+            </a>
+        </div>
+        <div class="hallList">
+            <ul>
+                <% for(var i=0;i<data.length;i++) {
+                if(i > 3) {break}
+                var expImg = data[i]['exp_img'].split(',')
+                var areaName = data[i]['exp_area_name'].split(',')
+                areaName = data[i]['exp_area_name'].split(',').join(' ')
+                var serviceName = data[i]['service_name'].split(',')
+                var serviceImg = data[i]['service_img'].split(',')
+                %>
+                <li>
+                    <a target="_blank" title="<%:=data[i]['exp_name']%>" href="/experience-<%:=data[i]['exp_code_id']%>.html">
+                        <div class="img-box">
+                            <img alt="<%:=data[i]['exp_name']%>" src="<%if(expImg[0]){%><%:=expImg[0]%>?imageView2/1/w/180/h/140/q/100/<%}else{%>/shop_pc/images/img/tiyandian.jpg<%}%>">
+                        </div>
+                        <div class="text">
+                            <strong>
+                                <%:=data[i]['exp_name']%>
+                            </strong>
+                            <p class="tell">
+                                <i></i>
+                                <%:=data[i]['exp_phone']%>
+                            </p>
+                            <p class="site">
+                                <i></i>
+                                <span><%:=areaName%> <%:=data[i]['exp_area_address']%></span>
+                            </p>
+							<%if(data[i]['exp_start']!=''){%>
+							<p class="site time">
+								<i></i>
+								<span>营业时间：<%:=data[i]['exp_start']%></span>
+							</p>
+							<%}%>
+                            <%if(data[i]['service_name']!=''&&data[i]['service_img']!=''){%>
+                            <p class="tis">
+                                <%for(var j=0;j<serviceName.length;j++){%>
+                                    <%for(var k=0;k<serviceImg.length;k++){%>
+                                        <%if(j==k){%>
+                                            <span class="icon-<%:=j+1%>">
+                                                <img alt="<%:=serviceName[j]%>" src="<%if(serviceImg[k]){%><%:=serviceImg[k]%><%}else{%>/shop_pc/images/img/tiyandian.jpg<%}%>" style="width: 14px; height: 14px;" />
+                                                <%:=serviceName[j]%>
+                                            </span>
+                                        <%}%>
+                                    <%}%>
+                                <%}%>
+                            </p>
+                            <%}%>
+                        </div>
+                    </a>
+                </li>
+                <%}%>
+            </ul>
+        </div>
+    </script>
+
+    <div class="message-box" id="floor6">
+        <h2 class="title alt">
+            动态 · 资讯
+        </h2>
+                    <div class="first-box">
+                <a target="_blank" title="星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮"  href="/news-1729-1.html">
+                    <div class="img-box">
+                                                    <img alt="星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮" class="lazy" data-original="https://img20.huju168.com/FldRBBk0FPi8IqJOe4YQWU20xHX9?imageView2/1/w/480/h/260/q/100/" src="https://img20.huju168.com/FldRBBk0FPi8IqJOe4YQWU20xHX9?imageView2/1/w/480/h/260/q/100/" style="display: inline;">
+                                            </div>
+                    <div class="bt">
+                        <em>
+                            11                            <span>2018-12</span>
+                        </em>
+                        <strong>星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮</strong>
+                        <p>新零售相信已经不是一个简单的代名词，新零售已经融入我们的生活。自从“马爸爸”提出新零售的商业模式以来，他就动作不断。近日，阿里巴巴与星巴克达成长期合作关系，星巴克也开始送外卖了！</p>
+                    </div>
+                </a>
+            </div>
+                <div class="text">
+                            <div class="mt">
+                    <strong>
+                        <a target="_blank" title="星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮" href="/news-1729-1.html">星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮</a>
+                    </strong>
+                    <p>新零售相信已经不是一个简单的代名词，新零售已经融入我们的生活。自从“马爸爸”提出新零售的商业模式以来，他就动作不断。近日，阿里巴巴与星巴克达成长期合作关系，星巴克也开始送外卖了！</p>
+                    <em>
+                        11                        <span>2018-12</span>
+                    </em>
+                </div>
+                        <div class="txt">
+                <ul class="fl">
+                    <em>
+                        商城动态<i></i>
+                        <a target="_blank" href="/news-1" class="fr">更多</a>
+                    </em>
+                                                                        <li>
+                                <a target="_blank" href="/news-1729-1.html">
+                                    星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮                                    <span>2018-12-11</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-1734-1.html">
+                                    虎居商城指路新零售，助力家居建材经销商乘风向前！                                    <span>2018-09-20</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-10202-1.html">
+                                    旧房翻新这10个泥瓦关键工艺，还不知道可就晚啦！                                    <span>2019-01-04</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-10201-1.html">
+                                    老婆想要衣帽间，房子太小怎么办？                                    <span>2019-01-04</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-10200-1.html">
+                                    干货！厨房水槽挑的好，腰不酸来腿不痛、蹦迪K歌不再累                                    <span>2019-01-04</span>
+                                </a>
+                            </li>
+                        
+                                    </ul>
+                <ul class="fr">
+                    <em>
+                        行业资讯<i></i>
+                        <a target="_blank" href="/news-2" class="fr">更多</a>
+                    </em>
+                                                                        <li>
+                                <a target="_blank" href="/news-10193-2.html">
+                                    传统家居建材市场遇经营窘境 虎居新零售模式助力破局                                    <span>2018-12-29</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-4329-2.html">
+                                    卧室摆放这些植物，让你有个好睡眠                                    <span>2018-12-20</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-4214-2.html">
+                                    过道装饰禁忌                                    <span>2018-12-20</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-1142-2.html">
+                                    阁楼装饰重点                                    <span>2018-12-19</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a target="_blank" href="/news-1232-2.html">
+                                    书房摆放禁忌                                    <span>2018-12-18</span>
+                                </a>
+                            </li>
+                        
+                                    </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+
+<div class="fixed-side" ectype="lift" style="left: 77.5px; top: 50%;">
+    <ul>
+        <li ectype="liftItem" data-target="#miaosha" class="active" style="display: list-item;">
+            <a>
+                <i class="icon-6"></i>
+                秒杀
+            </a>
+        </li>
+        <li ectype="liftItem" data-target="#floor1">
+            <a>
+                <i class="icon-1"></i>
+                家具
+            </a>
+        </li>
+        <li ectype="liftItem" data-target="#floor2">
+            <a>
+                <i class="icon-2"></i>
+                建材
+            </a>
+        </li>
+        <li ectype="liftItem" data-target="#floor3">
+            <a>
+                <i class="icon-3"></i>
+                家居
+            </a>
+        </li>
+        <li ectype="liftItem" data-target="#floor4">
+            <a>
+                <i class="icon-4"></i>
+                电器
+            </a>
+        </li>
+        <li ectype="liftItem" data-target="#floor5">
+            <a>
+                <i class="icon-7"></i>
+                体验店
+            </a>
+        </li>
+        <li ectype="liftItem" data-target="#floor6">
+            <a>
+                <i class="icon-8"></i>
+                资讯
+            </a>
+        </li>
+<!--        <li ectype="liftItem" data-target="#floor7">-->
+<!--            <a>-->
+<!--                <i class="icon-9"></i>-->
+<!--                问答-->
+<!--            </a>-->
+<!--        </li>-->
+    </ul>
+</div>
+
+<script id="seckillInfoTmp" type="text/html">
+    <%if(data['goodsList'].length>0){%>
+    <div class="tempWrap">
+        <ul>
+            <%for(var i=0;i<data['goodsList'].length;i++){
+            var skuImgs='';
+            if(data['goodsList'][i]['sku_imgs']!=''){
+                skuImgs=data['goodsList'][i]['sku_imgs'].split(',');
+            }
+            %>
+            <li class="clone">
+                <div class="img-box">
+                    <a target="_blank" title="<%:=data['goodsList'][i]['com_name']%>" href="/goods-<%:=data['goodsList'][i]['sku_code']%>.html">
+                        <img alt="<%:=data['goodsList'][i]['com_name']%>" class="lazy" data-original="<%if(skuImgs.length>0){%><%:=skuImgs[0]%><%}else{%>/shop_pc/images/img/tiyandian.jpg<%}%>" src="<%if(skuImgs.length>0){%><%:=skuImgs[0]%><%}else{%>/shop_pc/images/img/tiyandian.jpg<%}%>" style="display: inline;">
+                    </a>
+                </div>
+                <p class="text">
+                    <a target="_blank" href="/goods-<%:=data['goodsList'][i]['sku_code']%>.html">
+                        <%:=data['goodsList'][i]['com_name']%>
+                    </a>
+                </p>
+                <strong class="price">
+                    ¥<%if(data['goodsList'][i]['plum_price']!=''){%><%:=data['goodsList'][i]['plum_price']%><%}else{%><%:=data['goodsList'][i]['sku_selling_price']%><%}%>
+                </strong>
+                <%if(data['goodsList'][i]['sku_market_price']!=''&&data['goodsList'][i]['sku_market_price']>data['goodsList'][i]['sku_selling_price']){%><del>¥<%:=data['goodsList'][i]['sku_market_price']%></del><%}else{%>&nbsp;<%}%>
+                <a target="_blank" href="/goods-<%:=data['goodsList'][i]['sku_code']%>.html" class="btn go-buy">立即抢购</a>
+            </li>
+            <%}%>
+        </ul>
+    </div>
+    <a class="prev">前</a>
+    <a class="next">后</a>
+    <%}%>
+</script>
+
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=4qaHc40CpF5dp1tqqgeZ6NpRPA3VfHhf"></script>
+<script type="text/javascript">
+    var likeIndex = '1';
+
+    var cityName = '' ? '' : '';
+
+    var map = new BMap.Map("allmap");
+    var geolocation = new BMap.Geolocation();
+    var myCity = new BMap.LocalCity();
+
+    if(cityName == '') {
+        geolocation.getCurrentPosition(function(r){
+            if(this.getStatus() == BMAP_STATUS_SUCCESS){
+                //$('#lng').val(r.point.lng);
+                //$('#lat').val(r.point.lat);
+                myCity.get(myFun);
+            }
+        },{enableHighAccuracy: true});
+    } else {
+        recommendExpFun(cityName, '');
+    }
+    function myFun(result){
+        var city = result.name;
+        var lat = result.center.lat;
+        var lng = result.center.lng;
+        recommendExpFun(city, '');
+        $.ajax({
+            url: '/site/ajax-position-info',
+            type: 'post',
+            data: {
+                city: city,
+                lat: lat,
+                lng: lng,
+                _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+            },
+            dataType: 'json',
+            success: function(json) {
+                if(json['ret'] == 1) {
+                    $('.poitionCity').text(city);
+                    //console.log(json['msg']);
+                } else {
+                    //console.log(json['msg']);
+                }
+            },
+            error: function(reg) {
+                console.log(reg);
+            }
+        });
+        //$('#city').val(cityName);
+    }
+
+    $(function() {
+        getSeckillInfoFun();
+        $("img.lazy").lazyload({placeholder : "/shop_pc/images/index/transparent.gif",effect: "fadeIn"});
+    });
+
+    /**
+     * 限时秒杀
+     * */
+    function getSeckillInfoFun()
+    {
+        $.ajax({
+            url: '/goods/ajax-seckill-info',
+            type: 'post',
+            data: {
+                showType: '1',
+                page: likeIndex,
+                _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+            },
+            dataType: 'json',
+            success: function(json) {
+                if(json['ret'] == 200) {
+
+                    var date = new Date();
+                    var year = date.getFullYear();
+                    var month = date.getMonth() < 10 ? "0" + date.getMonth()+1 : date.getMonth()+1;
+                    var day = date.getDate() < 10 ? "0" + date.getDate() : date.getDate();
+                    var hour = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
+                    var minute = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
+                    var seconds = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
+                    var dTime = year+'-'+month+'-'+day+' '+hour+':'+minute+':'+seconds;
+
+                    var day1 = date.getDate() < 10 ? "0" + date.getDate()+1 : date.getDate()+1;
+                    var dTime1 = year+'-'+month+'-'+day1+' '+hour+':'+minute+':'+seconds;
+                    if(json['data'] && json['data'].length>0 && ((dTime >= json['data'][0]['act_date_start']) && (dTime <= json['data'][0]['act_date_end']))) {
+                        var html1 = '';
+                        html1 += '<span class="fl">限时秒杀</span>';
+                        html1 += '<div class="cd-time" data-time=""></div>';
+                        html1 += '<a target="_blank" class="fr org" href="/seckill/index">更多</a>';
+                        $('.recommend-brand').find('.title').html(html1);
+                        seckillBoxFun(json['data'][0], 1);
+
+                    } else if(json['data'] && json['data'].length>0 && (dTime1 >= json['data'][0]['act_date_start'])) {
+                        var html1 = '';
+                        html1 += '<span class="fl">限时秒杀</span>';
+                        html1 += '<div class="cd-time" data-time=""></div>';
+                        html1 += '<a target="_blank" class="fr org" href="/seckill/index">更多</a>';
+                        $('.recommend-brand').find('.title').html(html1);
+                        seckillBoxFun(json['data'][0], 2);
+
+                    } else {
+                        $('.recommend-brand').find('.title').remove('');
+                        $('.recommend-brand').find('.bd').remove('');
+                    }
+
+                } else {
+                    var html = '';
+                    html += '距结束';
+                    html += '<span class="hours">'+00+'</span> 时';
+                    html += '<span class="minutes">'+00+'</span> 分';
+                    html += '<span class="seconds">'+00+'</span>秒';
+                    $('.recommend-brand').find('.title').remove('');
+                    $('.recommend-brand').find('.bd').remove('');
+                }
+
+            },
+            error: function(reg) {
+                console.log(reg);
+            }
+        });
+    }
+
+    /**
+     * 限时秒杀结构
+     * */
+    function seckillBoxFun(data, type)
+    {
+        var end_time = '';
+        if(type == 1) {
+            end_time = data['act_date_end'];
+        } else if(type == 2) {
+            end_time = data['act_date_start'];
+        }
+        
+        data['startTime'] = data['act_date_start']; // 开始时间
+        data['endTime'] = data['act_date_end']; // 结束时间
+        var timestamp = new Date().getTime();
+        $('.recommend-brand').find('.title .cd-time').attr({'data-time': end_time, 'diff-key': timestamp, 'type': type}).html();
+        var tpl = document.getElementById('seckillInfoTmp').innerHTML;
+        var html = template(tpl, {data: data});
+        $('.recommend-brand').find('.bda').addClass('bd');
+        $('.recommend-brand').find('.bd').removeClass('bda');
+        $('.recommend-brand').find('.bd').html(html);
+        $('.recommend-brand').find('.title .cd-time').setTimers();
+
+        $(".picScroll-left").slide({
+            mainCell:".bd ul",
+            autoPage:true,
+            effect:"leftLoop",
+            autoPlay:true,
+            vis:5
+        });
+    }
+
+    /**
+     * 推荐体验店
+     * @param cityName 城市名
+     * @param adcode 城市编码
+     * @return mixed
+     * */
+    function recommendExpFun(cityName, adcode)
+    {
+        $.ajax({
+            url: '/site/recommend-exp',
+            type: 'post',
+            data: {
+                cityName: cityName,
+                adcode: adcode,
+                _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+            },
+            dataType: 'json',
+            success: function(json) {
+                if(json['ret'] == 200) {
+                    if(json['data']['rows']) {
+                        var info = json['data']['rows'];
+                        var tpl = document.getElementById('recommendExp').innerHTML;
+                        var data={data:info,cityName:cityName};
+                        var html = template(tpl,data);
+                        $('.discovery-hall').html(html);
+                    }
+                } else {
+                    console.log(json['msg']);
+                }
+            },
+            error: function(reg) {
+                console.log(reg);
+            }
+        });
+    }
+
+    //时间为一位数时显示格式为："0X"
+    function checkTime(i) {
+        if (i < 10) {
+            i = "0" + i;
+        }
+        return i;
+    }
+
+    (function($){
+        $.fn.extend({
+            setTimers: function(){
+                $(this).each(function(item,i){
+                    if($(this).attr('data-time')){
+                        (function(dom){
+                            var k = dom.attr('diff-key');
+                            function timer(){
+                                var intdiff = dom.attr('data-time');
+                                var type = dom.attr('type');
+                                var end = new Date(intdiff).getTime();
+                                var timestamp = new Date().getTime();
+                                var diff = (end - timestamp);
+                                var d = h = m = s = 0;
+                                var d = parseInt(diff / 1000 / 60 / 60 / 24 , 10); //计算剩余的天数
+                                //var h = parseInt(diff / 1000 / 60 / 60 % 24 , 10); //计算剩余的小时
+                                var h = parseInt(diff / 1000 / 60 / 60, 10); //计算剩余的小时
+                                var m = parseInt(diff / 1000 / 60 % 60, 10);//计算剩余的分钟
+                                var s = parseInt(diff / 1000 % 60, 10);//计算剩余的秒数
+                                h = checkTime(h);
+                                m = checkTime(m);
+                                s = checkTime(s);
+                                if(type == 2) {
+                                    if(diff <= 0){
+                                        clearInterval(k);
+                                        window.location.reload();
+                                    }else{
+                                        var html = '';
+                                        html += '距开始';
+                                        html += '<span class="hours">'+h+'</span> 时';
+                                        html += '<span class="minutes">'+m+'</span> 分';
+                                        html += '<span class="seconds">'+s+'</span>秒';
+                                        dom.html(html);
+                                        //dom.html('<i></i>剩余'+h+'小时'+ m+'分'+s+'秒');
+                                    }
+                                } else {
+                                    if(diff <= 0){
+                                        clearInterval(k);
+                                        getSeckillInfoFun();
+                                    }else{
+                                        var html = '';
+                                        html += '距结束';
+                                        html += '<span class="hours">'+h+'</span> 时';
+                                        html += '<span class="minutes">'+m+'</span> 分';
+                                        html += '<span class="seconds">'+s+'</span>秒';
+                                        dom.html(html);
+                                        //dom.html('<i></i>剩余'+h+'小时'+ m+'分'+s+'秒');
+                                    }
+                                }
+                            }
+                            timer();
+                            var k;
+                            k = setInterval(timer, 1000);
+                        })($(this));
+                    }
+                })
+            }
+        });
+    })(jQuery);
+
+</script>
+<!-- footer -->
+<div class="footer">
+    <div class="footer-new-top">
+        <div class="w1180">
+            <ul class="service-list">
+                <li>
+                    <i class="icon-1"></i>
+                    <strong>权威可信</strong>
+                    <p>商家经过严格实名认证</p>
+                </li>
+                <li>
+                    <i class="icon-2"></i>
+                    <strong>就近购买</strong>
+                    <p>优先展示附近商家</p>
+                </li>
+                <li>
+                    <i class="icon-3"></i>
+                    <strong>线下体验</strong>
+                    <p>全国数十万家体验店</p>
+                </li>
+                <li>
+                    <i class="icon-4"></i>
+                    <strong>商品直卖</strong>
+                    <p>厂家直卖用户无中间商</p>
+                </li>
+            </ul>
+            <!--<dl>
+                <dt>热门城市</dt>
+                <dd>
+                    <a>成都</a>
+                    <a>成都</a>
+                    <a>成都</a>
+                </dd>
+            </dl>-->
+        </div>
+    </div>
+    <div class="footer-new-con">
+        <div class="w1180">
+            <div class="help-list">
+                <div class="tel">
+                    <em>全国客服热线</em>
+                    <strong>400-016-8257</strong>
+                    <span>028-85237794</span>
+                    <p>
+                        周一至周日 0:00-24:00<br>
+                        免费咨询(咨询、建议、投诉)
+                    </p>
+                </div>
+                                                            <dl>
+                            <dt>配送支付</dt>
+                                                                                                <dd><a target="_blank" title="上门自提" href="/help-1963-1.html">上门自提</a></dd>
+                                                                    <dd><a target="_blank" title="收货指南" href="/help-4125-1.html">收货指南</a></dd>
+                                                                                    </dl>
+                                            <dl>
+                            <dt>新手指南</dt>
+                                                                                                <dd><a target="_blank" title="隐私保护" href="/help-1513-1.html">隐私保护</a></dd>
+                                                                    <dd><a target="_blank" title="注册引导" href="/help-1017-1.html">注册引导</a></dd>
+                                                                    <dd><a target="_blank" title="购物流程" href="/help-6512-1.html">购物流程</a></dd>
+                                                                    <dd><a target="_blank" title="常见问题" href="/help-3845-1.html">常见问题</a></dd>
+                                                                                    </dl>
+                                            <dl>
+                            <dt>关于我们</dt>
+                                                                                                <dd><a target="_blank" title="发展历程" href="/help-4441-1.html">发展历程</a></dd>
+                                                                    <dd><a target="_blank" title="虎居招聘" href="/help-8791-1.html">虎居招聘</a></dd>
+                                                                    <dd><a target="_blank" title="联系我们" href="/help-4206-1.html">联系我们</a></dd>
+                                                                    <dd><a target="_blank" title="平台简介" href="/help-1264-1.html">平台简介</a></dd>
+                                                                                    </dl>
+                                            <dl>
+                            <dt>服务保障</dt>
+                                                                                                <dd><a target="_blank" title="正品保障" href="/help-4356-1.html">正品保障</a></dd>
+                                                                    <dd><a target="_blank" title="7天无理由退换货" href="/help-4438-1.html">7天无理由退换货</a></dd>
+                                                                    <dd><a target="_blank" title="退货退款" href="/help-4434-1.html">退货退款</a></dd>
+                                                                    <dd><a target="_blank" title="纠纷处理" href="/help-1257-1.html">纠纷处理</a></dd>
+                                                                                    </dl>
+                                            <dl>
+                            <dt>加入我们</dt>
+                                                                                                <dd><a target="_blank" title="操作引导" href="/help-4448-1.html">操作引导</a></dd>
+                                                                    <dd><a target="_blank" title="家居资讯" href="https://zixun.huju168.com/">家居资讯</a></dd>
+                                                                    <dd><a target="_blank" title="登录入口" href="/help-1276-1.html">登录入口</a></dd>
+                                                                                    </dl>
+                                    
+                <div class="qr-code">
+                    <div class="code_img">
+                        <img src="/shop_pc/images/vipcn.jpg" />
+                        <p>关注微信公众号</p>
+                    </div>
+                    <div class="qr-item">
+                        <img src="/shop_pc/images/APP.png" />
+                        <p>下载虎居APP</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright_links">
+                <a target="_blank" href="/register-info.html">
+                    注册协议
+                </a>
+                <span class="spacer"></span>
+                <a class="p-kefu" onclick="openZoosUrl('chatwin');">
+                    联系客服
+                </a>
+                <!--<span class="spacer"></span>
+                <a target="_blank" title="友情链接" href="/link.html">
+                    友情链接
+                </a>-->
+                <span class="spacer"></span>
+                <a target="_blank" title="全部分类" href="/class.html">
+                    全部分类
+                </a>
+                <!--<span class="spacer"></span>
+                <a>
+                    广告合作
+                </a>
+                <span class="spacer"></span>
+                <a target="_blank" title="商家中心" href="https://seller.huju168.com">
+                    商家中心
+                </a>-->
+                <span class="spacer"></span>
+                <a target="_blank" title="站点地图" href="/map.html">
+                    站点地图
+                </a>
+                <span class="spacer"></span>
+                <a target="_blank" title="APP下载" href="/download">
+                    APP下载
+                </a>
+            </div>
+                            <div class="friendship">
+                    <dl>
+                        <dt>
+                            友情链接：
+                        </dt>
+                        <dd>
+                                                            <a target="_blank" title="虎居" href="https://www.huju168.com">虎居</a>
+                                                            <a target="_blank" title="成都家装公司" href="http://www.schxzs.com/">成都家装公司</a>
+                                                            <a target="_blank" title="青海车库门" href="http://www.13007788005.com">青海车库门</a>
+                                                            <a target="_blank" title="B2B" href="http://www.xiangzhao.com">B2B</a>
+                                                            <a target="_blank" title="成都旧房改造翻新" href="http://www.changehome.cn/">成都旧房改造翻新</a>
+                                                            <a target="_blank" title="硅藻泥加盟" href="http://www.hygzn.com/">硅藻泥加盟</a>
+                                                            <a target="_blank" title="深圳办公室装修" href="http://www.gsyzs.com">深圳办公室装修</a>
+                                                            <a target="_blank" title="成都办公室装修" href="http://www.cddrzs.com">成都办公室装修</a>
+                                                            <a target="_blank" title="酒店设计公司" href="http://www.cdkester.com">酒店设计公司</a>
+                                                            <a target="_blank" title="郴州装修公司" href="https://cz.qszs.com">郴州装修公司</a>
+                                                            <a target="_blank" title="济南装修" href="http://www.wmkjzx.cn ">济南装修</a>
+                                                            <a target="_blank" title="滁州装修" href="http://chuzhou.qizuang.com/">滁州装修</a>
+                                                            <a target="_blank" title="别墅图纸设计" href="http://sc.bieshu.com">别墅图纸设计</a>
+                                                            <a target="_blank" title="潍坊齐家居美装饰" href="http://www.wfqjjm.com ">潍坊齐家居美装饰</a>
+                                                            <a target="_blank" title="荣事达卫浴加盟" href="http://bidets.co.chinaweiyu.com/  ">荣事达卫浴加盟</a>
+                                                            <a target="_blank" title="老赖不赖门窗官网" href="http://fmj.chinamenwang.com/ ">老赖不赖门窗官网</a>
+                                                            <a target="_blank" title="木门十大品牌" href="http://top10.chinammw.cn/   ">木门十大品牌</a>
+                                                            <a target="_blank" title="淋浴房" href="http://www.chinalyf.com">淋浴房</a>
+                                                            <a target="_blank" title="成都装修公司 " href="http://www.589zx.com ">成都装修公司 </a>
+                                                            <a target="_blank" title="弘贵全装饰" href="http://www.hgqbj.com">弘贵全装饰</a>
+                                                            <a target="_blank" title="海外房产" href="http://www.fanghw.com/">海外房产</a>
+                                                            <a target="_blank" title="3M净水器加盟  " href="http://sanmchina.co.chinajsq.cn/  ">3M净水器加盟  </a>
+                                                            <a target="_blank" title="布克厨卫" href="http://buke.co.chinachugui.com">布克厨卫</a>
+                                                            <a target="_blank" title="智能家居" href="http://www.quzhai.cn">智能家居</a>
+                                                            <a target="_blank" title="蹲便器水箱" href="http://www.oli-world.cn/">蹲便器水箱</a>
+                                                            <a target="_blank" title="装修效果图" href="http://www.hizhuang8.com">装修效果图</a>
+                                                            <a target="_blank" title="雅安装修公司 " href="http://www.scwxj.cn">雅安装修公司 </a>
+                                                            <a target="_blank" title="服装店装修" href="http://www.gddszs.com">服装店装修</a>
+                                                            <a target="_blank" title="惠州装修公司" href="http://hz.mingdiao.com.cn">惠州装修公司</a>
+                                                            <a target="_blank" title="1918别墅装饰" href="http://www.1918bszx.com ">1918别墅装饰</a>
+                                                            <a target="_blank" title="成都装修公司" href="http://www.chuangyejian.com/    ">成都装修公司</a>
+                                                    </dd>
+                    </dl>
+                </div>
+                        <p class="copyright">版权所有  copyright 2017-2018 四川虎居信息科技有限公司</p><p class="copyright"><a class="beian" rel="nofollow" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51019002001684"><img src="https://img40.huju168.com/FinEALw7ifYIV2baxOAzDe1ctz1S" />&nbsp;<span>川公网安备 51019002001684号</span></a><span class="spacer"></span><a target="_blank" href="http://www.miibeian.gov.cn" rel="nofollow">网站备案/许可证号：蜀ICP备18008634号-1</a>                <span class="spacer"></span>                <a target="_blank" href="/edi.html" rel="nofollow">经营许可证：川B2-20180361</a>            </p>        </div>
+    </div>
+</div>
+
+<script id="areasListTmp" type="text/html">
+    <a class="site border">
+        <span class="poitionCity"><%:=cityName%></span>
+        <%if(data['common_areas'].length>0){%>
+        <span class="org">[切换城市]</span>
+        <%}%>
+    </a>
+
+    <%if(data['common_areas'].length>0){%>
+    <div class="site-up dorpdown-layer hoverOpen">
+        <div class="ui-areamini-content-wrap" id="ui-content-wrap">
+            <%if(data['hot_areas'].length>0){%>
+            <div class="hot">
+                <%for(var i=0;i<data['hot_areas'].length;i++){%>
+                <a href="/site/switch-city?city=<%:=data['hot_areas'][i]['name']%>&adcode=<%:=data['hot_areas'][i]['adcode']%>&loginUrl=<%:=loginUrl%>" <%if(data['hot_areas'][i]['name'] == cityName){%>style="background: #ff0000; color: #fff;"<%}%> ><%:=data['hot_areas'][i]['name']%></a>
+                <%}%>
+            </div>
+            <%}%>
+
+            <%if(data['common_areas'].length>0){%>
+            <div class="search-first-letter">
+                <a data-letter="A">A</a>
+                <a data-letter="B">B</a>
+                <a data-letter="C">C</a>
+                <a data-letter="D">D</a>
+                <a data-letter="E">E</a>
+                <a data-letter="F">F</a>
+                <a data-letter="G">G</a>
+                <a data-letter="H">H</a>
+                <a data-letter="J">J</a>
+                <a data-letter="K">K</a>
+                <a data-letter="L">L</a>
+                <a data-letter="M">M</a>
+                <a data-letter="N">N</a>
+                <a data-letter="P">P</a>
+                <a data-letter="Q">Q</a>
+                <a data-letter="R">R</a>
+                <a data-letter="S">S</a>
+                <a data-letter="T">T</a>
+                <a data-letter="W">W</a>
+                <a data-letter="X">X</a>
+                <a data-letter="Y">Y</a>
+                <a data-letter="Z">Z</a>
+            </div>
+
+            <div class="scrollBody" id="scrollBody">
+                <div class="all-list" id="scrollMap">
+                    <ul id="ul">
+                        <%for(var i=0;i<data['common_areas'].length;i++){%>
+                        <li data-id="<%:=i+1%>" data-name="<%:=data['common_areas'][i]['initial']%>">
+                            <em><%:=data['common_areas'][i]['initial']%></em>
+                            <div class="itme-city">
+                                <%if(data['common_areas'][i]['areass'].length>0){%>
+                                <%for(var j=0;j<data['common_areas'][i]['areass'].length;j++){%>
+                                <a href="/site/switch-city?city=<%:=data['common_areas'][i]['areass'][j]['name']%>&adcode=<%:=data['common_areas'][i]['areass'][j]['adcode']%>&loginUrl=<%:=loginUrl%>" class="<%if(data['common_areas'][i]['areass'][j]['name'] == cityName){%>city_selected<%}%>"><%:=data['common_areas'][i]['areass'][j]['name']%></a>
+                                <%}%>
+                                <%}%>
+                            </div>
+                        </li>
+                        <%}%>
+                    </ul>
+                </div>
+                <div class="scrollBar" id="scrollBar">
+                    <p id="city_bar"></p>
+                </div>
+                <input name="area_phpName" type="hidden" id="phpName">
+            </div>
+            <%}%>
+        </div>
+    </div>
+    <%}%>
+</script>
+
+<script src="/shop_pc/js/lazyload.min.js" 0="app\assets\AppAsset"></script>
+<script src="/shop_pc/js/module/index.js" 0="app\assets\AppAsset"></script>
+<script language="javascript" src="https://dct.zoosnet.net/JS/LsJS.aspx?siteid=DCT67601660&float=1&lng=cn"></script>
+<script type="text/javascript">
+    $(function(){
+        getAreasListFun();
+        $(".dorpdown-layer").jScroll();
+    });
+
+    /**
+     * 城市切换数据
+     * */
+    function getAreasListFun()
+    {
+        $.ajax({
+            url: '/site/get-areas-list',
+            type: 'post',
+            data: {
+                _csrf: 'zwrK6zYts-hL6vNb4YvJdgUggUWqVbe_xyy5uKNUDIOIPr2zG1rqgSOemyKN-K0vSRLyLvolgYeTHtfdyhY_3A=='
+            },
+            dataType: 'json',
+            success: function(json) {
+                var cityName = '';
+                var tpl = document.getElementById('areasListTmp').innerHTML;
+                var html = template(tpl, {data: json['data'], cityName: cityName, loginUrl: 'https://www.huju168.com/'});
+                $('.top-site-up').html(html);
+                $(".dorpdown-layer").jScroll();
+            },
+            error: function(reg) {
+                console.log(reg);
+            }
+        });
+    }
+
+    function openWin(obj) {
+
+        var where_goods = "";
+        if($(obj).attr('goods_id')){
+            where_goods = '&goods_id=' + $(obj).attr('goods_id');
+        }
+
+        var where_seller = "";
+        if($(obj).attr('ru_id')){
+            where_seller = '&ru_id=' + $(obj).attr('ru_id');
+        }
+
+        if($(obj).attr('IM_type') != 'dsc'){
+            var where = where_goods + where_seller;
+        }else{
+            var where = '';
+        }
+        var url='online.php?act=service' + where                   //转向网页的地址;
+        var name='webcall';                         //网页名称，可为空;
+        var iWidth=700;                          //弹出窗口的宽度;
+        var iHeight=500;                         //弹出窗口的高度;
+        //获得窗口的垂直位置
+        var iTop = (window.screen.availHeight - 30 - iHeight) / 2;
+        //获得窗口的水平位置
+        var iLeft = (window.screen.availWidth - 10 - iWidth) / 2;
+        window.open(url, name, 'height=' + iHeight + ',,innerHeight=' + iHeight + ',width=' + iWidth + ',innerWidth=' + iWidth + ',top=' + iTop + ',left=' + iLeft + ',status=no,toolbar=no,menubar=no,location=no,resizable=no,scrollbars=0,titlebar=no');
+    }
+</script>
+
+<!-- 百度统计  -->
+<!--<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?a7571c19f3d8384b004023f129392faf";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>-->
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+html, body, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, p, form, table, fieldset, img, legend, div, figure {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block; }
+
+fieldset, img {
+  border: 0; }
+
+i, em {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+a, a:hover {
+  text-decoration: none;
+  color: #666;
+  cursor: pointer; }
+
+ul, li, ol {
+  list-style: none; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+  height: 0; }
+
+.clear {
+  zoom: 1; }
+
+input {
+  outline: none; }
