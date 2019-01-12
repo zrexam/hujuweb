@@ -1,4 +1,4 @@
-define(['jquery'], function($){
+define(['jquery',"slidePic"], function($,slidePic){
 	function index(){
 		//顶部显示隐藏
 		$(".toper_show").mouseenter(function(){
@@ -140,119 +140,16 @@ define(['jquery'], function($){
 				}
 				$(".con_1f dl dt ol").find("li:first-child").attr("class", "active");
 
-				/*var iconNows = 0;
-				$(".con_1f dl dt ol").on("mouseenter", "li", function(){
-					iconNows = $(this).index();
-					listTab(this, iconNows);
-				})*/
+
 				//1F
-				var iconNow1 = 0;
-				var timerCon1 = null;
-				timerCon1 = setInterval(function(){
-					setTimerCon1()
-				},2000)
-				$("#1F dl dt").mouseenter(function(){
-					clearInterval(timerCon1);
-				}).mouseleave(function(){
-					timerCon1 = setInterval(function(){
-						setTimerCon1()
-					},2000)
-				})
-				$("#1F dl dt ol").on("mouseenter", "li", function(){
-					iconNow1 = $(this).index();
-					listTab(this, iconNow1);
-				})
-				function setTimerCon1(){
-					if(iconNow1 == $("#1F dl dt ol li").size()){
-						iconNow1 = 0;
-					}
-					listTab("#1F dl dt ol li",iconNow1);
-					iconNow1 ++;
-				}
-
+				slidePic.slidePic("#1F dl dt ol");
 				//2F
-				var iconNow2 = 0;
-				var timerCon2 = null;
-				timerCon2 = setInterval(function(){
-					setTimerCon2()
-				},2000)
-				$("#2F dl dt").mouseenter(function(){
-					clearInterval(timerCon2);
-				}).mouseleave(function(){
-					timerCon2 = setInterval(function(){
-						setTimerCon2()
-					},2000)
-				})
-				$("#2F dl dt ol").on("mouseenter", "li", function(){
-					iconNow2 = $(this).index();
-					listTab(this, iconNow2);
-				})
-				function setTimerCon2(){
-					if(iconNow2 == $("#2F dl dt ol li").size()){
-						iconNow2 = 0;
-					}
-					listTab("#2F dl dt ol li",iconNow2);
-					iconNow2 ++;
-				}
+				slidePic.slidePic("#2F dl dt ol");
 				//3F
-				var iconNow3 = 0;
-				var timerCon3 = null;
-				timerCon3 = setInterval(function(){
-					setTimerCon3()
-				},2000)
-				$("#3F dl dt").mouseenter(function(){
-					clearInterval(timerCon3);
-				}).mouseleave(function(){
-					timerCon3 = setInterval(function(){
-						setTimerCon3()
-					},2000)
-				})
-				$("#3F dl dt ol").on("mouseenter", "li", function(){
-					iconNow3 = $(this).index();
-					listTab(this, iconNow3);
-				})
-				function setTimerCon3(){
-					if(iconNow3 == $("#3F dl dt ol li").size()){
-						iconNow3 = 0;
-					}
-					listTab("#3F dl dt ol li",iconNow3);
-					iconNow3 ++;
-				}
+				slidePic.slidePic("#3F dl dt ol");
 				//4F
-				var iconNow4 = 0;
-				var timerCon4 = null;
-				timerCon4 = setInterval(function(){
-					setTimerCon4()
-				},2000)
-				$("#4F dl dt").mouseenter(function(){
-					clearInterval(timerCon4);
-				}).mouseleave(function(){
-					timerCon4 = setInterval(function(){
-						setTimerCon4()
-					},2000)
-				})
-				$("#4F dl dt ol").on("mouseenter", "li", function(){
-					iconNow4 = $(this).index();
-					listTab(this, iconNow4);
-				})
-				function setTimerCon4(){
-					if(iconNow4 == $("#4F dl dt ol li").size()){
-						iconNow4 = 0;
-					}
-					listTab("#4F dl dt ol li",iconNow4);
-					iconNow4 ++;
-				}
+				slidePic.slidePic("#4F dl dt ol");
 
-				//滚动效果
-				function listTab(node,iconNow){
-					$(node).parent().find("li").attr("class","");
-					$(node).parent().find("li").eq(iconNow).attr("class", "active");
-					var ulWidth = $(node).parent().parent().find("ul li").width() * $(node).parent().parent().find("ul li").size();
-					$(node).parent().parent().find("ul").width(ulWidth);
-					$(node).parent().parent().find("ul").stop().animate({
-						left: - $(node).parent().parent().find("ul li").width() * iconNow
-					});
-				}
 			},
 			error: function(msg){
 				console.log(msg);
