@@ -6,18 +6,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 	<meta name="keywords" content="虎居,虎居商城,家居商城,建材商城,虎居网,家居新零售平台,新零售加盟">
 	<meta name="description" content="虎居家居建材直卖网,创意家居、智能家居的一站式家居新零售平台,采用C2M2B模式，千余家家居新零售加盟商家，实现家居行业新零售选购有感体验场景化,让消费者省心、省时、省力、省钱.">
-	<title>虎居商城</title>
+	<title>虎居商城-列表页</title>
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/global.min.css">
-	<link rel="stylesheet" href="css/index.min.css">
-	<script type="text/javascript" src = "js/require.js" async = "true" defer data-main ="js/main"></script>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/global.min.css">
+	<link rel="stylesheet" href="../css/show.min.css">
+	<script type="text/javascript" src = "../js/require.js" async = "true" defer data-main ="../js/mainShow"></script>
 </head>
 <body>
 	<!-- 顶部广告图 -->
 	<div class="container-fluid adpicTop clearfix">
-		<img src="images/apicTop.jpg" alt="顶部广告图" title="顶部广告图">
+		<img src="../images/apicTop.jpg" alt="顶部广告图" title="顶部广告图">
 	</div>
 	<!-- 顶部 -->
 	<div class="container-fluid toper">
@@ -54,14 +54,14 @@
 					<i class="fa fa-mobile-phone fa-lg"></i>
 					<span>手机虎居</span>
 					<div class="toper_hide">
-						<img src="images/APP.png">
+						<img src="../images/APP.png">
 					</div>
 				</li>
 				<li class="toper_show">
 					<i class="fa fa-weixin fa-lg"></i>
 					<span>微信公众号</span>
 					<div class="toper_hide">
-						<img src="images/vipcn.jpg">
+						<img src="../images/vipcn.jpg">
 					</div>
 				</li>
 				<li>
@@ -108,7 +108,7 @@
 	</div>
 	<!-- 头部 -->
 	<div class="container header">
-		<div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="虎居商城" title="虎居商城"></a></div>
+		<div class="logo"><a href="index.html"><img src="../images/logo.jpg" alt="虎居商城" title="虎居商城"></a></div>
 		<div class="search">
 			<div class="search_t">
 				<i class="fa fa-search"></i>
@@ -175,173 +175,75 @@
 			
 		</div>
 	</div>
-	<div class="container-fluid">
-		<div class="container relative">
-			
-			<!-- 右侧登录 -->
-			<div class="con_login">
-				<div class="con_user">
-					<img src="images/avatar.png" alt="">
-					<h2>Hi，欢迎来到虎居!</h2>
-					<a href="">登录</a>
-					<a href="" class="orange">注册</a>
+
+	<!-- 内容页 -->
+	<!-- 当前位置 -->
+	<div class="list_top">
+		<div class="container">
+			<span><a href="/index.html">首页</a></span>
+			<em>&gt;</em>
+			<div class="list_top_cate">
+				<div class="toper_show">
+					<p><a href="#">家具</a><i class="fa fa-angle-down fa-lg"></i></p>
+					<ul class="toper_hide">
+						<li><a href="">家具</a></li>
+						<li><a href="">建材</a></li>
+						<li><a href="">家居家饰</a></li>
+						<li><a href="">电器</a></li>
+						<li><a href="">智能</a></li>
+					</ul>
 				</div>
-				<ul>
-					<li><i></i><span>权威可信</span></li>
-					<li><i></i><span>就近购买</span></li>
-					<li><i></i><span>线下体验</span></li>
-					<li><i></i><span>商品直卖</span></li>
-				</ul>
 			</div>
-		</div>
-		<!-- banner -->
-		<div class="banner">
-			<!-- <ul class="clearfix">
-				<li><a href=""><img src="images/banner01.jpg" alt="banner01"></a></li>
-			</ul> -->
-			<!-- <ol>
-				<li></li>
-			</ol> -->
-			
-			<!-- <a class="prev"></a>
-			<a class="next"></a> -->
-			
-		</div>
-	</div>
-	<!-- 活动推荐 -->
-	<div class="container con_tuijian" id="recommend">
-		<h2 class="con_tit">活动推荐</h2>
-	</div>
-	<!-- 1F -->
-	<div class="container con_1f" id="1F">
-		<!-- <div class="con_top clearfix">
-			<h2 class="con_tit">1F 家具</h2>
-			<ul>
-				<li><a href="">沙发</a></li>
-				<li><a href="">沙发</a></li>
-				<li><a href="">沙发</a></li>
-				<li><a href="">沙发</a></li>
-				<li><a href="">沙发</a></li>
-			</ul>
-		</div>
-		<dl class="clearfix">
-			<dt>
-				<ul>
-					<li><a href=""><img src="images/01.jpg" alt=""></a></li>
-					<li><a href=""><img src="images/01.jpg" alt=""></a></li>
-					<li><a href=""><img src="images/01.jpg" alt=""></a></li>
-				</ul>
-				<ol>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ol>
-			</dt>
-			<dd>
-				<ul class="clearfix">
-					<li><a href=""><img src="images/02.jpg" alt=""></a></li>
-					<li><a href=""><img src="images/03.jpg" alt=""></a></li>
-					<li><a href=""><img src="images/04.jpg" alt=""></a></li>
-					<li><a href=""><img src="https://img20.huju168.com/FqaDokuvty0o1-beA4BzDyoqOZHh" alt=""></a></li>
-					<li><a href=""><img src="https://img20.huju168.com/Fvt1Am6VEA5r3Vy81sshtFjK4Yfr" alt=""></a></li>
-					<li><a href=""><img src="https://img20.huju168.com/Fj7fGOQsGm6DVpDVYLVST_CNmytZ" alt=""></a></li>
-				</ul>
-			</dd>
-		</dl> -->
-	</div>
-	<!-- 广告图 -->
-	<div class="container adpic"><a href="#"><img src="images/adpic01.jpg" alt=""></a></div>
-	<!-- 2F -->
-	<div class="container con_1f" id="2F">
-		<h2></h2>
-	</div>
-	<!-- 广告图 -->
-	<div class="container adpic"><a href="#"><img src="images/adpic02.jpg" alt=""></a></div>
-	<!-- 3F -->
-	<div class="container con_1f" id="3F"></div>
-	<!-- 广告图 -->
-	<div class="container adpic"><a href="#"><img src="images/adpic03.jpg" alt=""></a></div>
-	<!-- 4F -->
-	<div class="container con_1f" id="4F"></div>
-	<!-- 广告图 -->
-	<div class="container adpic"><a href="#"><img src="images/adpic04.jpg" alt=""></a></div>
-	<!-- 体验店 -->
-	<div class="container con_tiyan" id="tiyan">
-		<div class="con_top clearfix">
-			<h2 class="con_tit">成都市 · 体验店</h2>
-			<ul>
-				<li><a href="">查看更多体验店</a></li>
-			</ul>
-		</div>	
-	</div>
-	<!-- 动态 -->
-	<div class="container con_news" id="news">
-		<div class="con_top clearfix">
-			<h2 class="con_tit">动态 · 资讯</h2>
-		</div>
-		<div class="con_news_l">
-			<!-- <div class="con_news_l_img"><img src="images/06.jpg" alt=""></div>
-			<dl>
-				<dt><span>11</span><i>2018-12</i></dt>
-				<dd>
-					<p>星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮</p>
-					<span>新零售相信已经不是一个简单的代名词，新零售已经融入我们的生活。自从“马爸爸”提出新零售的商业模式以来，他就动作不断。近日，阿里巴巴与星巴克达成长期合作关系，星巴克也开始送外卖了！</span>
-				</dd>
-			</dl> -->
-		</div>
-		<div class="con_news_r">
-			<dl class="con_news_r_top clearfix">
-				<!-- <a href="">
-					<dt>
-						<span>11</span><i>2018-12</i>
-					</dt>
-					<dd>
-						<p>星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮</p>
-						<span>新零售相信已经不是一个简单的代名词，新零售已经融入我们的生活。自从“马爸爸”提出新零售的商业模式以来，他就动作不断。近日，阿里巴巴与星巴克达成长期合作关系，星巴克也开始送外卖了！</span>
-					</dd>
-				</a> -->
-			</dl>
-			<dl class="news-item" id="news_l">
-				<dt class="clearfix"><span>商城动态</span><a href="">更多</a></dt>
-				<!-- <dd>
-					<a href="">
-						<span>2018-12-11</span>
-						<p>星巴克联姻阿里巴巴热议下：虎居科技勇掀家居新零售浪潮</p>
-						
-					</a>
-				</dd> -->
-			</dl>
-			<dl class="news-item" id="news_r">
-				<dt class="clearfix"><span>行业资讯</span><a href="">更多</a></dt>
-				
-			</dl>
+			<em>&gt;</em>
+			<div class="list_top_cate">
+				<div class="toper_show">
+					<p><a href="#">卧室家具</a><i class="fa fa-angle-down fa-lg"></i></p>
+					<ul class="toper_hide">
+						<li><a href="">家具</a></li>
+						<li><a href="">建材</a></li>
+						<li><a href="">家居家饰</a></li>
+						<li><a href="">电器</a></li>
+						<li><a href="">智能</a></li>
+						<li><a href="">家具</a></li>
+						<li><a href="">建材</a></li>
+						<li><a href="">家居家饰</a></li>
+						<li><a href="">电器</a></li>
+						<li><a href="">智能</a></li>
+					</ul>
+				</div>
+			</div>
+			<em>&gt;</em>
+			<span>和谐家园 新中式风格 卧室家具 橡木全实木 四门推拉衣柜 妆台 双抽床头柜 1.8米 皮质靠背 双人...</span>
 		</div>
 	</div>
+	
+	
+
 	<!-- 底部 -->
 	<div class="container bottom">
 		<dl>
-			<dt><img src="images/ft-icon_03.png" alt=""></dt>
+			<dt><img src="../images/ft-icon_03.png" alt=""></dt>
 			<dd>
 				<h2>权威可信</h2>
 				<span>商家经过严格实名认证</span>
 			</dd>
 		</dl>
 		<dl>
-			<dt><img src="images/ft-icon_05.png" alt=""></dt>
+			<dt><img src="../images/ft-icon_05.png" alt=""></dt>
 			<dd>
 				<h2>就近购买</h2>
 				<span>优先展示附近商家</span>
 			</dd>
 		</dl>
 		<dl>
-			<dt><img src="images/ft-icon_07.png" alt=""></dt>
+			<dt><img src="../images/ft-icon_07.png" alt=""></dt>
 			<dd>
 				<h2>线下体验</h2>
 				<span>全国数十万家体验店</span>
 			</dd>
 		</dl>
 		<dl>
-			<dt><img src="images/ft-icon_09.png" alt=""></dt>
+			<dt><img src="../images/ft-icon_09.png" alt=""></dt>
 			<dd>
 				<h2>商品直卖</h2>
 				<span>厂家直卖用户无中间商</span>
@@ -397,8 +299,8 @@
 					<dd><a href="">登录入口</a></dd>
 				</dl>
 				<ul>
-					<li><img src="images/vipcn.jpg" alt=""><p>关注微信公众号</p></li>
-					<li><img src="images/APP.png" alt=""><p>下载虎居APP</p></li>
+					<li><img src="../images/vipcn.jpg" alt=""><p>关注微信公众号</p></li>
+					<li><img src="../images/APP.png" alt=""><p>下载虎居APP</p></li>
 				</ul>
 			</div>
 			<div class="f2">
@@ -414,22 +316,12 @@
 					<dd><a href="">虎居</a><a href="">成都家装公司</a><a href="">青海车库门</a><a href="">B2B</a><a href="">成都旧房改造翻新</a><a href="">硅藻泥加盟</a></dd>
 				</dl>
 				<p>版权所有 copyright 2017-2018 四川虎居信息科技有限公司</p>
-				<p><a href=""><img src="images/gongan.jpg">川公网安备 51019002001684号</a><a href="">网站备案/许可证号：蜀ICP备18008634号-1</a><a href="">经营许可证：川B2-20180361</a></p>
+				<p><a href=""><img src="../images/gongan.jpg">川公网安备 51019002001684号</a><a href="">网站备案/许可证号：蜀ICP备18008634号-1</a><a href="">经营许可证：川B2-20180361</a></p>
 			</div>
 		</div>
 	</div>
-	<!-- 左侧飘窗 -->
-	<ul class="fixedLeft">
-		<li data-target="#recommend"><a href=""><i class="icon_01"></i><span>活动</span></a></li>
-		<li data-target="#1F"><a href=""><i class="icon_02"></i><span>家具</span></a></li>
-		<li data-target="#2F"><a href=""><i class="icon_03"></i><span>建材</span></a></li>
-		<li data-target="#3F"><a href=""><i class="icon_04"></i><span>家居</span></a></li>
-		<li data-target="#4F"><a href=""><i class="icon_05"></i><span>电器</span></a></li>
-		<li data-target="#tiyan"><a href=""><i class="icon_06"></i><span>体验店</span></a></li>
-		<li data-target="#news"><a href=""><i class="icon_07"></i><span>资讯</span></a></li>
-	</ul>
 	<!-- 右侧飘窗 -->
-	<div class="fixedTel"><a href=""><img src="images/onlineimgsrc_cn.png" alt=""></a></div>
+	<div class="fixedTel"><a href=""><img src="../images/onlineimgsrc_cn.png" alt=""></a></div>
 	<ul class="fixedRight">
 		<li>
 			<a href="#"><i class="icon_08"></i><span>客服</span></a>
@@ -438,7 +330,7 @@
 			<a href="#"><i class="icon_09"></i><span>扫码</span></a>
 			<div class="code">
                 <div class="img-box">
-                    <img src="images/APP.png">
+                    <img src="../images/APP.png">
                 </div>
                 <p>下载虎居APP<br>领千元新人礼包</p>
                 <i></i>

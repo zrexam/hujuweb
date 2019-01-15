@@ -3,14 +3,12 @@ require.config({
 	paths:{
 		jquery : "jquery-1.10.1.min",
 		cookie : "jquery.cookie",
-		index: "index.min",
-		slidePic: "slidePic.min",
+		show: "show",
 		header: "header"
 	}
 })
 
-require(["index","header"], function(index, header){
+require(["show","header"], function(show, header){
 	header.header();
-	index.index();
-	
+	show.show();
 })

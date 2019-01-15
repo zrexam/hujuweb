@@ -6,12 +6,6 @@ gulp.task("copy-index",function(){
 	.pipe(gulp.dest('dist'))
 	.pipe(connect.reload());
 })
-//生成子页面
-gulp.task("copy-html",function(){
-	return gulp.src(["html/*.html","!index.html"])
-	.pipe(gulp.dest('dist/html'))
-	.pipe(connect.reload());
-})
 
 //生成JSON
 gulp.task("data",function(){
@@ -60,18 +54,17 @@ gulp.task("images", function(){
 })
 
 //希望能够一次性执行多个任务
-gulp.task("build", gulp.series("copy-index", "images", "js", "scss","data"), function(){
+gulp.task("build", ["copy-index", "images", "js", "scss","data"], function(){
 	console.log("编译成功");
 })
 
 //gulp 监听
 gulp.task("watch", function(){
-	gulp.watch("index.html", gulp.series('copy-index'));
-	gulp.watch("images/**/*.{jpg,png}",gulp.series("images"));
-	gulp.watch("css/*.scss", gulp.series('scss'));
-	gulp.watch("js/*.js", gulp.series('js'));
-	gulp.watch("data/*.json", gulp.series("data"));
-	gulp.watch(["html/*.html","!index.html"], gulp.series("copy-html"));
+	gulp.watch("index.html", ['copy-index']);
+	gulp.watch("images/**/*.{jpg,png}",["images"]);
+	gulp.watch("css/*.scss", ['scss']);
+	gulp.watch("js/*.js", ['js']);
+	gulp.watch("data/*.json", ["data"]);
 })
 //创建服务器
 const connect = require("gulp-connect");
@@ -85,4 +78,4 @@ gulp.task("server", function(){
 })
 
 //设置默认任务
-gulp.task("default",  gulp.parallel("server","watch"));
+gulp.task("default",  ["server","watch"]);
