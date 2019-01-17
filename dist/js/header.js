@@ -3,9 +3,9 @@ define(["jquery"], function($){
 
 		//顶部显示隐藏
 		$(".toper_show").mouseenter(function(){
-			$(this).attr("class","active toper_show").find(".toper_hide").slideDown()
+			$(this).attr("class","active toper_show").find(".toper_hide").stop().slideDown()
 		}).mouseleave(function(){
-			$(this).attr("class","toper_show").find(".toper_hide").slideUp()
+			$(this).attr("class","toper_show").find(".toper_hide").stop().slideUp()
 		})
 		//切换城市
 		$.ajax({
