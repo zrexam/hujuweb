@@ -712,7 +712,8 @@ input {
       background: #fff;
       top: 22px;
       padding: 10px;
-      z-index: 4s; }
+      z-index: 4;
+      overflow: hidden; }
       .list_top .list_top_cate ul li {
         float: left;
         padding: 5px 10px; }
