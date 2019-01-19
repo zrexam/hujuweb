@@ -1,4 +1,4 @@
-define(['jquery',"slidePic"], function($,slidePic){
+define(["slidePic","jquery","jquery-cookie"], function(slidePic,$){
 	function index(){
 
 		//banner

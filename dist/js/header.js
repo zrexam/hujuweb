@@ -1,5 +1,9 @@
-define(["jquery"], function($){
+define(["jquery","jquery-cookie"], function($){
 	function header(){
+		//cookie用户名
+		if($.cookie("username")){
+			$(".toper .toper_right li").eq(0).html("HI，<i style='color:#f9860a'>" + $.cookie("username") + "</i>  欢迎来到虎居");
+		}
 
 		//顶部显示隐藏
 		$(".toper_show").mouseenter(function(){
@@ -152,8 +156,39 @@ define(["jquery"], function($){
 			$(this).attr("class","");
 			$(this).find(".code").hide();
 		})
+
+		//返回顶部
+		$(".fixedRight li").eq(2).click(function(){
+			$("html,body").stop().animate({
+				scrollTop: 0
+			},1000)
+			return false();
+		})
+
+
+		//购物车
+		shopCar();
+
 	}
+
+	//计算购物车中商品的数量
+	function shopCar(){
+		var cookieStr = $.cookie("goods");
+		var cookieArr = eval(cookieStr);
+
+		var sum = 0;
+		//通过循环，完成累加
+		if(cookieArr){
+			for(var i = 0; i < cookieArr.length; i++){
+				sum += cookieArr[i].num;
+			}
+		}
+		//页面上标签赋值
+		$(".toper .toper_right li:nth-child(4)").find("em").html(sum);
+	}
+
 	return {
-		header:header
+		header:header,
+		shopCar:shopCar
 	}
 })

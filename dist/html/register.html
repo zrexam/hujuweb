@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="../css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/global.min.css">
 	<link rel="stylesheet" href="../css/login.min.css">
-	<script type="text/javascript" src = "../js/require.js" async = "true" defer data-main ="../js/mainLogin"></script>
+	<script type="text/javascript" src = "../js/require.js" async = "true" defer data-main ="../js/mainReg"></script>
 </head>
 <body>
 	<!-- 顶部广告图 -->
@@ -22,7 +22,7 @@
 	<!-- 顶部 -->
 	<div class="login-header container">
         <div class="logo">
-            <a href="/">
+            <a href="/index.html">
                 <img src="../images/logo.png">
             </a>
             <h2>用户注册-虎居</h2>
@@ -38,53 +38,48 @@
 	            <ul>
 	                <li>
 	                    <label>
-	                        手机号
+	                        用户名
 	                    </label>
-	                    <input class="yzm-ipt red-bor" type="text" maxlength="11" id="mobile" placeholder="建议使用常用手机">
-	                    <span class="tips">请输入手机号</span>
-	                </li>
-	                <li>
-	                    <label>
-	                        验证码
-	                    </label>
-	                    <input type="text" placeholder="请输入右方图形验证码" maxlength="4" id="code" class="yzm-ipt">
-	                    <div class="yzm">
-	                        <img src="/site/show-captcha?name=registerCode&amp;v=0.6396994965691938" alt="看不清，点击换一张" style="height: 34px;cursor:pointer;" title="看不清，点击换一张" onclick="this.src='/site/show-captcha?name=registerCode&amp;v='+Math.random()">                    </div>
+	                    <input class="yzm-ipt" type="text" id="username" name="username" placeholder="请输入用户名">
 	                    <span class="tips"></span>
 	                </li>
 	                <li>
 	                    <label>
-	                        短信验证码
+	                        手机号
 	                    </label>
-	                    <input type="text" placeholder="请输入短信验证码" maxlength="4" id="smscode" class="yzm-ipt">
-	                    <a class="yzm msgYzm" data-value="1">获取验证码</a>
+	                    <input class="yzm-ipt" type="text" id="phone" name="phone" placeholder="建议使用常用手机">
 	                    <span class="tips"></span>
 	                </li>
 	                <li>
 	                    <label>
 	                        设置密码
 	                    </label>
-	                    <input type="password" placeholder="建议至少使用两种字符组合" id="password">
+	                    <input type="password" placeholder="建议至少使用两种字符组合" name="password" id="password">
 	                    <span class="tips"></span>
 	                </li>
 	                <li>
 	                    <label>
 	                        密码确认
 	                    </label>
-	                    <input type="password" placeholder="请再次输入密码" id="password_queren">
+	                    <input type="password" placeholder="请再次输入密码" id="confirmPassWord">
+	                    <span class="tips"></span>
+	                </li>
+	                <li>
+	                    <label>
+	                        验证码
+	                    </label>
+	                    <input type="text" placeholder="请输入右方图形验证码" id="code" class="yzm-ipt">
+	                    <span class="yzm" id="idcode"></span>
 	                    <span class="tips"></span>
 	                </li>
 	            </ul>
-	            <p class="lost">
-	                点击注册，同意虎居<a target="_blank" title="注册协议" href="/register-info.html">《注册协议》</a>
-	            </p>
 	            <button type="submit" id="RegisterSubmit" class="reg-btn">
 	                同意协议并注册
 	            </button>
 	        </div>
 	        <div class="loginR">
 	            <p>已有虎居账号，点击立即登录</p>
-	            <a class="log" title="登录" href="/login.html">登录</a>
+	            <a class="log" title="登录" href="login.html">登录</a>
 	            <p class="link">
 	                如果您是商家，请点击 <a target="_blank" title="商家登录" href="https://seller.huju168.com">商家登录</a>
 	            </p>

@@ -2,9 +2,12 @@
 require.config({
 	paths:{
 		jquery : "jquery-1.10.1.min",
-		cookie : "jquery.cookie",
+		"jquery-cookie" : "jquery.cookie",
 		list: "list",
 		header: "header"
+	},
+	shim:{
+		"jquery-cookie": ["jquery"]
 	}
 })
 

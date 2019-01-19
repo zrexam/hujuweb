@@ -18,7 +18,7 @@
 	<!-- 顶部 -->
 	<div class="login-header container">
         <div class="logo">
-            <a href="index.html">
+            <a href="/index.html">
                 <img src="../images/login_logo.png">
             </a>
         </div>
@@ -26,7 +26,7 @@
 	<!-- 登录 -->
 	<div class="login-main">
 	    <div class="hdBox">
-	            <a href="index.html">
+	            <a href="/index.html">
 	            <img src="../images/login-img.jpg">
 	            </a>
 	            </div>
@@ -49,33 +49,31 @@
 	            </ul>
 	        </div>
 	        <div class="bd">
-	            <div class="bd-box paw_log" style="display: block;">
-	                <div class="tips-box box_1" style="display: none">
+	            <div class="bd-box paw_log">
+	                <div class="tips-box box_1">
 	                    <i></i>
 	                    <span>请输入密码</span>
 	                </div>
 	                <ul>
 	                    <li>
-	                        <input type="text" id="account" autocomplete="off" name="accout" placeholder="账户/手机号">
+	                        <input type="text" id="username" autocomplete="off" name="username" placeholder="账户/手机号">
 	                    </li>
 	                    <li>
-	                        <input type="password" id="password" autocomplete="off" name="passwd" placeholder="密码">
+	                        <input type="password" id="password" autocomplete="off" name="password" placeholder="密码">
 	                    </li>
 	                    <li>
 	                        <input class="yzm_ipt" id="code" autocomplete="off" name="vcode" type="text" placeholder="验证码">
-	                        <div class="yzm">
-	                            <img src="" alt="看不清，点击换一张" style=" height: 34px;cursor:pointer;" title="看不清，点击换一张" onclick="">                        </div>
-	                    </li>
+	                        <span class="yzm" id="idcode"></span>
 	                </ul>
 	                <button type="submit" id="userLogin" class="log-btn">
 	                    登录
 	                </button>
 	                <p class="zc">
-	                    <a class="fl" href="/default/find-pwd" target="_blank">找回密码</a>
+	                    <a class="fl" href="register.html" target="_blank">免费注册</a>
 	                </p>
 	            </div>
-	            <div class="bd-box note_log" style="display: none;">
-	                <div class="tips-box box_2" style="display: none">
+	            <div class="bd-box note_log">
+	                <div class="tips-box box_2">
 	                    <i></i>
 	                    <span>请输入手机号</span>
 	                </div>
@@ -99,7 +97,7 @@
 	                    登录
 	                </button>
 	            </div>
-	            <div class="bd-box matrixbox" style="display: none;">
+	            <div class="bd-box matrixbox">
 	                <div class="qrcode" id="qrcode" data-val="59959dada59e4b269335">
 	                    <img src="../images/erweima.png">
 	                    <p>使用虎居商城APP扫一扫登录</p>

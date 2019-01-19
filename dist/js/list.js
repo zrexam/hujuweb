@@ -1,15 +1,15 @@
-define(["jquery"], function($){
+define(["jquery","jquery-cookie"], function($){
 	function list(){
 			$.ajax({
 				type: "get",
 				url: "../data/list.json",
 				success: function(arr){
-					console.log(arr);
+					// console.log(arr);
 					if(arr){
 						for(var i = 0; i < arr.length; i++){
 							var oListItem = $("<div class='list_item'></div>");
 							var oListImg = $("<div class='list_img'></div>");
-							var oA = $("<a href=" + arr[i].url + "></a>");
+							var oA = $("<a href=" + arr[i].url + "?id=" + arr[i].id + "></a>");
 							var oUl = $("<ul></ul>");
 							for(var j = 0; j < arr[i].img.length; j++){
 								$("<li><img src=" + arr[i].img[j] + " alt=" + arr[i].title + " title=" + arr[i].title + "></li>").appendTo(oUl);
@@ -25,7 +25,7 @@ define(["jquery"], function($){
 							$("<span class='prev'>&lt;</span><span class='next'>&gt;</span>").appendTo(oListImgX);
 							oListImgX.appendTo(oListImg);
 							oListImg.appendTo(oListItem);
-							$("<a href=" + arr[i].url + "><ul class='list_con'><li><span>" + arr[i].price + "</span><i>" + arr[i].del + "</i></li><li><p>" + arr[i].title + "</p></li><li><em>" + arr[i].evaluate + "</em></li><li><em>" + arr[i].merchant + "</em></li></ul></a>").appendTo(oListItem);
+							$("<a href=" + arr[i].url + "><ul class='list_con'><li><span>￥" + arr[i].price + "</span><i>￥" + arr[i].del + "</i></li><li><p>" + arr[i].title + "</p></li><li><em>" + arr[i].evaluate + "</em></li><li><em>" + arr[i].merchant + "</em></li></ul></a>").appendTo(oListItem);
 							oListItem.appendTo($(".list_cons"));
 
 							if(i < 5){
@@ -47,11 +47,13 @@ define(["jquery"], function($){
 								$("<span class='prev'>&lt;</span><span class='next'>&gt;</span>").appendTo(oListImgX);
 								oListImgX.appendTo(oListImg);
 								oListImg.appendTo(oListItem);
-								$("<a href=" + arr[i].url + "><ul class='list_con'><li><span>" + arr[i].price + "</span><i>" + arr[i].del + "</i></li><li><p>" + arr[i].title + "</p></li><li><em>" + arr[i].evaluate + "</em></li><li><em>" + arr[i].merchant + "</em></li></ul></a>").appendTo(oListItem);
+								$("<a href=" + arr[i].url + "?id=" + arr[i].id + "><ul class='list_con'><li><span>" + arr[i].price + "</span><i>" + arr[i].del + "</i></li><li><p>" + arr[i].title + "</p></li><li><em>" + arr[i].evaluate + "</em></li><li><em>" + arr[i].merchant + "</em></li></ul></a>").appendTo(oListItem);
 								oListItem.appendTo($(".liker_list"));
 							}
 
 						}
+						
+						$(".list_img ul li").eq(0).show().siblings().hide();
 
 
 						var iNow = 0;

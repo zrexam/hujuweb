@@ -116,14 +116,16 @@
 			position:relative;
 			.tips-box {
 				position:absolute;
+				display:none;
 				left:0;
 				top:3px;
 				border:1px solid #faccc6;
 				background:#ffebeb;
-				width:288px;
+				width:300px;
 				height:20px;
 				line-height:20px;
 				padding-left:10px;
+				font-size:12px;
 				color:#ff0000;
 				i {
 					width:12px;
@@ -160,10 +162,10 @@
 				}
 				.yzm {
 					position:absolute;
-					top:2px;
-					right:2px;
+					top:0px;
+					right:0px;
 					width:90px;
-					height:34px;
+					height:36px;
 					cursor:pointer;
 					text-align:center;
 					background:#f2f2f2;
@@ -209,6 +211,9 @@
 				height:226px;
 				text-align:center;
 				padding-top:10px;
+				img{
+					display:inline-block;
+				}
 				p {
 					font-size:14px;
 					color:#333;
@@ -310,8 +315,8 @@
 			}
 			.yzm {
 				position:absolute;
-				top:3px;
-				right:304px;
+				top:2px;
+				right:323px;
 				width:90px;
 				height:34px;
 				line-height: 34px;
